@@ -15,6 +15,9 @@
         android:theme="@style/Theme.Service_Provider"
         tools:targetApi="31">
         <activity
+            android:name=".User_profiles"
+            android:exported="false" />
+        <activity
             android:name=".TutorProviders"
             android:exported="false" />
         <activity
