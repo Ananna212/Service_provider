@@ -60,6 +60,10 @@
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_baseline_message_24.xml.flat",
+        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/baseline_message_24.xml"
+    },
+    {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_add_img_24.png.flat",
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/add_img_24.png"
     },
@@ -86,6 +90,10 @@
     {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.project.service_provider.app-merged_res-39:/layout_activity_user_profiles.xml.flat",
+        "source": "com.project.service_provider.app-main-41:/layout/activity_user_profiles.xml"
     },
     {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/layout_activity_admin_transport.xml.flat",
@@ -144,16 +152,16 @@
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/notification1.xml"
     },
     {
+        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/layout_activity_user_profiles.xml.flat",
+        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/layout/activity_user_profiles.xml"
+    },
+    {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_header_curve.xml.flat",
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/header_curve.xml"
     },
     {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/mipmap-mdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/layout_activity_user_profiles.xml.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/layout/activity_user_profiles.xml"
     },
     {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/layout_transportsinglerow.xml.flat",
@@ -178,10 +186,6 @@
     {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/layout_activity_doctor_profile.xml.flat",
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/layout/activity_doctor_profile.xml"
-    },
-    {
-        "merged": "com.project.service_provider.app-merged_res-39:/layout_activity_rough.xml.flat",
-        "source": "com.project.service_provider.app-main-41:/layout/activity_rough.xml"
     },
     {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -210,6 +214,10 @@
     {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/layout_activity_admin_doctor.xml.flat",
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/layout/activity_admin_doctor.xml"
+    },
+    {
+        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_baseline_call_24.xml.flat",
+        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/baseline_call_24.xml"
     },
     {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_rounded_relativelayout.xml.flat",

@@ -16,6 +16,7 @@ MERGED from [com.google.firebase:firebase-firestore:24.1.1] /home/shrabon/.gradl
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /home/shrabon/.gradle/caches/transforms-3/806ad99a62e5870765fd630b695ff25e/transformed/firebase-storage-20.1.0/AndroidManifest.xml:15:1-38:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/shrabon/.gradle/caches/transforms-3/31e74ca76de18ae6e03075980edacbdb/transformed/circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/shrabon/.gradle/caches/transforms-3/10365807c1c8f45148264253579d507f/transformed/glide-4.14.2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /home/shrabon/.gradle/caches/transforms-3/1eb377cd958cd1d6512fb949a7c6961b/transformed/play-services-location-18.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/shrabon/.gradle/caches/transforms-3/ac62a7d29f196a7e41b6bd0fb762bdfd/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/shrabon/.gradle/caches/transforms-3/8611244ce4ccad774bd34396c7340aa4/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/shrabon/.gradle/caches/transforms-3/7d5e9996a21af434d50576c4445799c8/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
@@ -26,6 +27,7 @@ MERGED from [com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/c
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/shrabon/.gradle/caches/transforms-3/039a13a72526bfa21d8ed3b401456090/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/shrabon/.gradle/caches/transforms-3/8641cd57dba604f55449d6051e24e0cd/transformed/play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/shrabon/.gradle/caches/transforms-3/6d44368e468cb00907607e0a576fb41b/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/shrabon/.gradle/caches/transforms-3/4b381926b1e44a66b4c5479fbea46299/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/shrabon/.gradle/caches/transforms-3/bb2407d419e768075aaf287775f658a0/transformed/play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/shrabon/.gradle/caches/transforms-3/9b0ae98663379e107cabec9c255a07bb/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.3.6] /home/shrabon/.gradle/caches/transforms-3/15b435232a46361b08130fbe06960c1b/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
@@ -124,11 +126,11 @@ ADDED from /home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/
 	android:name
 		ADDED from /home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:8:22-78
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:9:5-81
+ADDED from /home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:9:5-80
 	android:name
 		ADDED from /home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:9:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:10:5-79
+ADDED from /home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:10:5-78
 	android:name
 		ADDED from /home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:10:22-76
 application
@@ -149,6 +151,8 @@ MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/shrabon/.gradle/caches/tr
 MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/shrabon/.gradle/caches/transforms-3/31e74ca76de18ae6e03075980edacbdb/transformed/circleimageview-3.1.0/AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/shrabon/.gradle/caches/transforms-3/10365807c1c8f45148264253579d507f/transformed/glide-4.14.2/AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/shrabon/.gradle/caches/transforms-3/10365807c1c8f45148264253579d507f/transformed/glide-4.14.2/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /home/shrabon/.gradle/caches/transforms-3/1eb377cd958cd1d6512fb949a7c6961b/transformed/play-services-location-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /home/shrabon/.gradle/caches/transforms-3/1eb377cd958cd1d6512fb949a7c6961b/transformed/play-services-location-18.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/shrabon/.gradle/caches/transforms-3/7d5e9996a21af434d50576c4445799c8/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/shrabon/.gradle/caches/transforms-3/7d5e9996a21af434d50576c4445799c8/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-database:20.0.0] /home/shrabon/.gradle/caches/transforms-3/70891dc0c67e1ae009b81ea2f1ccf0ce/transformed/firebase-database-20.0.0/AndroidManifest.xml:28:5-36:19
@@ -163,6 +167,8 @@ MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/shrabon/.gr
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/shrabon/.gradle/caches/transforms-3/8641cd57dba604f55449d6051e24e0cd/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/shrabon/.gradle/caches/transforms-3/6d44368e468cb00907607e0a576fb41b/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/shrabon/.gradle/caches/transforms-3/6d44368e468cb00907607e0a576fb41b/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/shrabon/.gradle/caches/transforms-3/4b381926b1e44a66b4c5479fbea46299/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/shrabon/.gradle/caches/transforms-3/4b381926b1e44a66b4c5479fbea46299/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/shrabon/.gradle/caches/transforms-3/bb2407d419e768075aaf287775f658a0/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/shrabon/.gradle/caches/transforms-3/bb2407d419e768075aaf287775f658a0/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] /home/shrabon/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
@@ -311,6 +317,8 @@ MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/shrabon/.gradle/caches/tr
 MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/shrabon/.gradle/caches/transforms-3/31e74ca76de18ae6e03075980edacbdb/transformed/circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/shrabon/.gradle/caches/transforms-3/10365807c1c8f45148264253579d507f/transformed/glide-4.14.2/AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/shrabon/.gradle/caches/transforms-3/10365807c1c8f45148264253579d507f/transformed/glide-4.14.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /home/shrabon/.gradle/caches/transforms-3/1eb377cd958cd1d6512fb949a7c6961b/transformed/play-services-location-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /home/shrabon/.gradle/caches/transforms-3/1eb377cd958cd1d6512fb949a7c6961b/transformed/play-services-location-18.0.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/shrabon/.gradle/caches/transforms-3/ac62a7d29f196a7e41b6bd0fb762bdfd/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/shrabon/.gradle/caches/transforms-3/ac62a7d29f196a7e41b6bd0fb762bdfd/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/shrabon/.gradle/caches/transforms-3/8611244ce4ccad774bd34396c7340aa4/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
@@ -331,6 +339,8 @@ MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/shrabon/.gr
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/shrabon/.gradle/caches/transforms-3/8641cd57dba604f55449d6051e24e0cd/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/shrabon/.gradle/caches/transforms-3/6d44368e468cb00907607e0a576fb41b/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/shrabon/.gradle/caches/transforms-3/6d44368e468cb00907607e0a576fb41b/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/shrabon/.gradle/caches/transforms-3/4b381926b1e44a66b4c5479fbea46299/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/shrabon/.gradle/caches/transforms-3/4b381926b1e44a66b4c5479fbea46299/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/shrabon/.gradle/caches/transforms-3/bb2407d419e768075aaf287775f658a0/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/shrabon/.gradle/caches/transforms-3/bb2407d419e768075aaf287775f658a0/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/shrabon/.gradle/caches/transforms-3/9b0ae98663379e107cabec9c255a07bb/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44

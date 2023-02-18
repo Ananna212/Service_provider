@@ -23,10 +23,10 @@
 14-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:8:5-81
 14-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:8:22-78
 15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-15-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:9:5-81
+15-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:9:5-80
 15-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:9:22-78
 16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:10:5-79
+16-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:10:5-78
 16-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:10:22-76
 17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 17-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:24:5-79

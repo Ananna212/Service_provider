@@ -10,7 +10,9 @@ color teal_700
 color white
 drawable add_img_24
 drawable background
+drawable baseline_call_24
 drawable baseline_email_24
+drawable baseline_message_24
 drawable baseline_person_outline_24
 drawable baseline_person_pin_24
 drawable baseline_place_24
@@ -63,8 +65,6 @@ id fetchName
 id fetchimag
 id fetshDesignation
 id geoLocation
-id image1
-id image2
 id imageView3
 id imageView4
 id imageView5
@@ -73,6 +73,8 @@ id imaged
 id imagep
 id imgupload
 id imguploadT
+id imguploadp
+id imguploadpd
 id infoAdd
 id location
 id logedIn
@@ -82,6 +84,8 @@ id medical
 id pass
 id passwords
 id profile
+id profileClick
+id ratingBar
 id recview
 id relativeLayout
 id searchA
@@ -112,6 +116,9 @@ id timagep
 id toolbar
 id toolbar_title
 id trsubmitBtn
+id uaddress
+id umail
+id uname
 id username
 layout activity_admin_doctor
 layout activity_admin_education

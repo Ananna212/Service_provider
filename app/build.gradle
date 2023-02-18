@@ -53,6 +53,8 @@ dependencies {
     implementation 'com.firebaseui:firebase-ui-firestore:8.0.2'
     //dexter
     implementation 'com.karumi:dexter:6.2.3'
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
+
 
 
 

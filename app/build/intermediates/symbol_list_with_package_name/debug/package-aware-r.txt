@@ -2737,7 +2737,9 @@ drawable add_img_24
 drawable avd_hide_password
 drawable avd_show_password
 drawable background
+drawable baseline_call_24
 drawable baseline_email_24
+drawable baseline_message_24
 drawable baseline_person_outline_24
 drawable baseline_person_pin_24
 drawable baseline_place_24
@@ -3140,8 +3142,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id image1
-id image2
 id imageView3
 id imageView4
 id imageView5
@@ -3150,6 +3150,8 @@ id imaged
 id imagep
 id imgupload
 id imguploadT
+id imguploadp
+id imguploadpd
 id immediateStop
 id included
 id indeterminate
@@ -3280,9 +3282,11 @@ id position
 id postLayout
 id pressed
 id profile
+id profileClick
 id progress_circular
 id progress_horizontal
 id radio
+id ratingBar
 id ratio
 id rectangles
 id recview
@@ -3444,6 +3448,9 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id trsubmitBtn
+id uaddress
+id umail
+id uname
 id unchecked
 id uniform
 id unlabeled

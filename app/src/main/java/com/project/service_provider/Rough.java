@@ -7,6 +7,7 @@ import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -23,6 +24,7 @@ public class Rough extends AppCompatActivity {
 
     CardView Education,Transport,medical;
     TextView Profile,logout;
+    LinearLayout profiled;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +34,15 @@ public class Rough extends AppCompatActivity {
         medical = findViewById(R.id.medical);
         Profile = findViewById(R.id.profile);
         logout= findViewById(R.id.LogOut);
+        profiled = findViewById(R.id.profileClick);
+
+        profiled.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Rough.this, User_profiles.class);
+                startActivity(intent);
+            }
+        });
 
         FirebaseFirestore dbroot = FirebaseFirestore.getInstance();
         String currentuser = FirebaseAuth.getInstance().getCurrentUser().getUid();
