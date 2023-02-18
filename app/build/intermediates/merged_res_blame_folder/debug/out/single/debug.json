@@ -8,10 +8,6 @@
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/layout/activity_transport_details_info.xml"
     },
     {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/menu_menu_item.xml.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/menu/menu_item.xml"
-    },
-    {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_search_view_bg2.xml.flat",
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/search_view_bg2.xml"
     },
@@ -44,10 +40,6 @@
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/baseline_security_24.xml"
     },
     {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-pngs-34:/drawable-xhdpi/ic_launcher_foreground.png"
-    },
-    {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/mipmap-hdpi_ic_launcher_foreground.png.flat",
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/mipmap-hdpi/ic_launcher_foreground.png"
     },
@@ -60,28 +52,12 @@
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/baseline_person_outline_24.xml"
     },
     {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_baseline_payments_24.xml.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/baseline_payments_24.xml"
-    },
-    {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable-hdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-pngs-34:/drawable-hdpi/ic_launcher_foreground.png"
-    },
-    {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/mipmap-mdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_baseline_message_24.xml.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/baseline_message_24.xml"
-    },
-    {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/layout_activity_paymentsystem.xml.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/layout/activity_paymentsystem.xml"
     },
     {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_add_img_24.png.flat",
@@ -96,32 +72,12 @@
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/xml/backup_rules.xml"
     },
     {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_card_style_ad.xml.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/card_style_ad.xml"
-    },
-    {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-pngs-34:/drawable-xxhdpi/ic_launcher_foreground.png"
-    },
-    {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/layout_singlerow.xml.flat",
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/layout/singlerow.xml"
-    },
-    {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_ic_baseline_exit_to_app_24.xml.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/ic_baseline_exit_to_app_24.xml"
-    },
-    {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/layout_toolbar.xml.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/layout/toolbar.xml"
-    },
-    {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_checkmark.xml.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/checkmark.xml"
     },
     {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_baseline_person_pin_24.xml.flat",
@@ -132,24 +88,16 @@
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_ic_add_location_black_24dp.xml.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/ic_add_location_black_24dp.xml"
-    },
-    {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/layout_activity_admin_transport.xml.flat",
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/layout/activity_admin_transport.xml"
     },
     {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable-ldpi_ic_launcher_foreground.png.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-pngs-34:/drawable-ldpi/ic_launcher_foreground.png"
+        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_ic_add_location_black_24dp.xml.flat",
+        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/ic_add_location_black_24dp.xml"
     },
     {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/mipmap-xxhdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_ic_baseline_settings_24.xml.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/ic_baseline_settings_24.xml"
     },
     {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/mipmap-xxhdpi_ic_launcher_round.png.flat",
@@ -158,10 +106,6 @@
     {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/mipmap-xhdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable-mdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-pngs-34:/drawable-mdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -180,16 +124,12 @@
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/transport.png"
     },
     {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_ic_call_black_24dp.xml.flat",
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/ic_call_black_24dp.xml"
     },
     {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_ic_baseline_arrow_back_24.xml.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/ic_baseline_arrow_back_24.xml"
+        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/layout_activity_tutor_providers.xml.flat",
@@ -204,10 +144,6 @@
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/notification1.xml"
     },
     {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/layout_activity_user_profiles.xml.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/layout/activity_user_profiles.xml"
-    },
-    {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_header_curve.xml.flat",
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/header_curve.xml"
     },
@@ -216,12 +152,12 @@
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/layout_transportsinglerow.xml.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/layout/transportsinglerow.xml"
+        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/layout_activity_user_profiles.xml.flat",
+        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/layout/activity_user_profiles.xml"
     },
     {
-        "merged": "com.project.service_provider.app-merged_res-39:/layout_activity_paymentsystem.xml.flat",
-        "source": "com.project.service_provider.app-main-41:/layout/activity_paymentsystem.xml"
+        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/layout_transportsinglerow.xml.flat",
+        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/layout/transportsinglerow.xml"
     },
     {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/layout_doctor_single_profile.xml.flat",
@@ -236,20 +172,16 @@
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/layout/activity_signin.xml"
     },
     {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/layout_activity_statistics.xml.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/layout/activity_statistics.xml"
-    },
-    {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-pngs-34:/drawable-xxxhdpi/ic_launcher_foreground.png"
-    },
-    {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_card_style.xml.flat",
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/card_style.xml"
     },
     {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/layout_activity_doctor_profile.xml.flat",
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/layout/activity_doctor_profile.xml"
+    },
+    {
+        "merged": "com.project.service_provider.app-merged_res-39:/layout_activity_rough.xml.flat",
+        "source": "com.project.service_provider.app-main-41:/layout/activity_rough.xml"
     },
     {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -268,10 +200,6 @@
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/layout/activity_details_info.xml"
     },
     {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_ic_baseline_menu_24.xml.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/ic_baseline_menu_24.xml"
-    },
-    {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/layout_activity_admin_education.xml.flat",
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/layout/activity_admin_education.xml"
     },
@@ -284,12 +212,12 @@
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/layout/activity_admin_doctor.xml"
     },
     {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_baseline_call_24.xml.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/baseline_call_24.xml"
-    },
-    {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_rounded_relativelayout.xml.flat",
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/rounded_relativelayout.xml"
+    },
+    {
+        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/layout_activity_home_page.xml.flat",
+        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/layout/activity_home_page.xml"
     },
     {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/layout_activity_rough.xml.flat",
@@ -300,39 +228,15 @@
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_cerclebackground.xml.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/cerclebackground.xml"
-    },
-    {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_nav_style.xml.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/nav_style.xml"
-    },
-    {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/layout_drop_down_item.xml.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/layout/drop_down_item.xml"
-    },
-    {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/xml_data_extraction_rules.xml.flat",
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_statistics.png.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/statistics.png"
-    },
-    {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_ic_baseline_more_vert_24.xml.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/ic_baseline_more_vert_24.xml"
-    },
-    {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_ic_baseline_person_pin_24.xml.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/ic_baseline_person_pin_24.xml"
+        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_profile.jpg.flat",
+        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/profile.jpg"
     },
     {
         "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_flower.jpg.flat",
         "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/flower.jpg"
-    },
-    {
-        "merged": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-merged_res-39:/drawable_profile.jpg.flat",
-        "source": "/home/shrabon/.gradle/daemon/7.5/com.project.service_provider.app-main-41:/drawable/profile.jpg"
     }
 ]

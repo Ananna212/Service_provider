@@ -1,39 +1,22 @@
 package com.project.service_provider.admin;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
 
-import android.Manifest;
-import android.app.Activity;
-import android.app.Dialog;
 import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
-import android.net.Uri;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.project.service_provider.MainActivity;
 import com.project.service_provider.R;
+import com.project.service_provider.detailsInfo;
 
 public class TransportDetailsInfo extends AppCompatActivity {
 
-    LinearLayout firstL, scndL,thridL;
-    EditText fnumber,fammount,sotp;
-    Button paymentBKASH,Otp,done;
-    //dialog
-    private static final int REQUEST_CALL = 1;
-    TextView Name,vnumber,adress,drivincLicence,number,txtclose;
-    ImageView img,call,location,payment;
-    Dialog myDialog;
+    TextView Name,vnumber,adress,drivincLicence,number;
+    ImageView img;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,9 +27,6 @@ public class TransportDetailsInfo extends AppCompatActivity {
         drivincLicence = findViewById(R.id.tfesthDlicence);
         number = findViewById(R.id.tfetchMobile);
         img = findViewById(R.id.tfetchimag);
-        call = findViewById(R.id.imageViewcall);
-        location = findViewById(R.id.imageViewlocation);
-        payment = findViewById(R.id.PAYMENT);
 
 
         String name = getIntent().getExtras().getString("name","defaultKey");
@@ -62,81 +42,7 @@ public class TransportDetailsInfo extends AppCompatActivity {
         System.out.println("Tdv: "+DrivingLicence);
         System.out.println("Tphone: "+phone);
 
-        payment.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                myDialog = new Dialog(TransportDetailsInfo.this);
-                myDialog.setContentView(R.layout.activity_paymentsystem);
-                txtclose =(TextView) myDialog.findViewById(R.id.txtclose);
-                txtclose.setText("X");
-                txtclose.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        myDialog.dismiss();
-                    }
-                });
-                // new code
 
-                firstL =(LinearLayout) myDialog.findViewById(R.id.firstpase);
-                scndL = (LinearLayout) myDialog.findViewById(R.id.scndpase);
-                thridL =  (LinearLayout)myDialog.findViewById(R.id.thridpase);
-
-                fnumber = (EditText) myDialog.findViewById(R.id.bikashnumbr);
-                fammount =  (EditText) myDialog.findViewById(R.id.ammount);
-                sotp =  (EditText) myDialog.findViewById(R.id.otp);
-
-                paymentBKASH = (Button) myDialog.findViewById(R.id.paymentB);
-                Otp = (Button) myDialog.findViewById(R.id.trsubmitBtn);
-                done =  (Button) myDialog.findViewById(R.id.done);
-
-                paymentBKASH.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        firstL.setVisibility(View.GONE);
-                        scndL.setVisibility(View.VISIBLE);
-                    }
-                });
-
-                Otp.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        scndL.setVisibility(View.GONE);
-                        thridL.setVisibility(View.VISIBLE);
-                    }
-                });
-
-
-                done.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        myDialog.dismiss();
-                    }
-                });
-
-
-                //new code end
-                myDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
-                myDialog.show();
-            }
-        });
-        call.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String PhoneNumber = number.getText().toString();
-                callNumber(PhoneNumber);
-            }
-        });
-
-        location.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String location = adress.getText().toString();
-                // Create an intent with the address as a query parameter
-                Uri uri = Uri.parse("geo:0,0?q=" + Uri.encode(location));
-                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                startActivity(Intent.createChooser(intent, "Open with"));
-            }
-        });
 
 
         Name.setText(name);
@@ -153,30 +59,5 @@ public class TransportDetailsInfo extends AppCompatActivity {
         intent.putExtra("key", "Transport");
         startActivity(intent);
         finish();
-    }
-
-    private void callNumber(String number) {
-
-        Intent callIntent = new Intent(Intent.ACTION_CALL);
-
-        callIntent.setData(Uri.parse("tel:" + number));
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-            Toast.makeText(TransportDetailsInfo.this, "Please grant the call permission to proceed.", Toast.LENGTH_LONG).show();
-            return;
-        }
-        startActivityForResult(callIntent, REQUEST_CALL);
-
-    }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == REQUEST_CALL) {
-            if (resultCode == Activity.RESULT_OK) {
-                Toast.makeText(TransportDetailsInfo.this, "Call sent successfully.", Toast.LENGTH_LONG).show();
-            } else if (resultCode == Activity.RESULT_CANCELED) {
-                Toast.makeText(TransportDetailsInfo.this, "Call failed. Please try again.", Toast.LENGTH_LONG).show();
-            }
-        }
     }
 }

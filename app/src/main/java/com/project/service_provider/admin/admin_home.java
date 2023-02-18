@@ -7,13 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.project.service_provider.MainActivity;
 import com.project.service_provider.R;
-import com.project.service_provider.User_profiles;
-import com.project.service_provider.detailsInfo;
 
 public class admin_home extends AppCompatActivity {
-    LinearLayout Ed,tr,md,st;
+    LinearLayout Ed,tr,md;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +20,6 @@ public class admin_home extends AppCompatActivity {
         Ed = findViewById(R.id.EducationBtn);
         tr = findViewById(R.id.TransportBtn);
         md = findViewById(R.id.infoAdd);
-        st = findViewById(R.id.statistics);
 
         md.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,22 +45,5 @@ public class admin_home extends AppCompatActivity {
                 startActivity(trintent);
             }
         });
-
-        st.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(admin_home.this,Statistics.class);
-                startActivity(intent);
-            }
-        });
-
-
-
-    }
-    public void onBackPressed() {
-        Intent intent = new Intent(admin_home.this, User_profiles.class);
-        intent.putExtra("key","Teacher");
-        startActivity(intent);
-        finish();
     }
 }

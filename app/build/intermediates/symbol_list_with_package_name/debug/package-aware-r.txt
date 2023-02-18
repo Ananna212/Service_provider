@@ -2737,10 +2737,7 @@ drawable add_img_24
 drawable avd_hide_password
 drawable avd_show_password
 drawable background
-drawable baseline_call_24
 drawable baseline_email_24
-drawable baseline_message_24
-drawable baseline_payments_24
 drawable baseline_person_outline_24
 drawable baseline_person_pin_24
 drawable baseline_place_24
@@ -2755,9 +2752,6 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button_style
 drawable card_style
-drawable card_style_ad
-drawable cerclebackground
-drawable checkmark
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -2789,12 +2783,6 @@ drawable googleg_standard_color_18
 drawable header_curve
 drawable ic_add_location_black_24dp
 drawable ic_arrow_back_black_24
-drawable ic_baseline_arrow_back_24
-drawable ic_baseline_exit_to_app_24
-drawable ic_baseline_menu_24
-drawable ic_baseline_more_vert_24
-drawable ic_baseline_person_pin_24
-drawable ic_baseline_settings_24
 drawable ic_call_black_24dp
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
@@ -2869,7 +2857,6 @@ drawable mtrl_switch_thumb_unchecked_pressed
 drawable mtrl_switch_track
 drawable mtrl_switch_track_decoration
 drawable mtrl_tabs_default_indicator
-drawable nav_style
 drawable navigation_empty_icon
 drawable notification1
 drawable notification_action_background
@@ -2887,7 +2874,6 @@ drawable notify_panel_notification_icon_bg
 drawable profile
 drawable rounded_relativelayout
 drawable search_view_bg2
-drawable statistics
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -2903,7 +2889,6 @@ id LogOut
 id META
 id Mnumber
 id NO_DEBUG
-id PAYMENT
 id Register
 id SHIFT
 id SHOW_ALL
@@ -2981,7 +2966,6 @@ id aligned
 id all
 id allStates
 id always
-id ammount
 id animateToEnd
 id animateToStart
 id antiClockwise
@@ -2998,7 +2982,6 @@ id baseline
 id beginOnFirstDraw
 id beginning
 id bestChoice
-id bikashnumbr
 id blocking
 id bottom
 id bounce
@@ -3083,7 +3066,6 @@ id doctor_email
 id doctor_name
 id doctor_phone
 id doctor_specialite
-id done
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3098,7 +3080,6 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id editPro
 id edit_query
 id education
 id elastic
@@ -3109,7 +3090,6 @@ id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
-id exit
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3125,7 +3105,6 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
-id firstpase
 id fitCenter
 id fitEnd
 id fitStart
@@ -3161,18 +3140,16 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id image1
+id image2
 id imageView3
 id imageView4
 id imageView5
 id imageView6
-id imageViewcall
-id imageViewlocation
 id imaged
 id imagep
 id imgupload
 id imguploadT
-id imguploadp
-id imguploadpd
 id immediateStop
 id included
 id indeterminate
@@ -3282,7 +3259,6 @@ id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
-id otp
 id outline
 id outward
 id overshoot
@@ -3297,20 +3273,16 @@ id password_toggle
 id passwords
 id path
 id pathRelative
-id paymentB
 id peekHeight
 id percent
-id pieChart
 id pin
 id position
 id postLayout
 id pressed
 id profile
-id profileClick
 id progress_circular
 id progress_horizontal
 id radio
-id ratingBar
 id ratio
 id rectangles
 id recview
@@ -3326,7 +3298,6 @@ id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
 id scale
-id scndpase
 id screen
 id scroll
 id scrollIndicatorDown
@@ -3361,7 +3332,6 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
-id setting
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3397,7 +3367,6 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
-id statistics
 id status_bar_latest_event_content
 id stop
 id stretch
@@ -3455,7 +3424,6 @@ id tfetchMobile
 id tfetchName
 id tfetchimag
 id tfetshVnumber
-id thridpase
 id timagep
 id time
 id title
@@ -3476,10 +3444,6 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id trsubmitBtn
-id txtclose
-id uaddress
-id umail
-id uname
 id unchecked
 id uniform
 id unlabeled
@@ -3620,10 +3584,8 @@ layout activity_details_info
 layout activity_doctor_profile
 layout activity_login
 layout activity_main
-layout activity_paymentsystem
 layout activity_rough
 layout activity_signin
-layout activity_statistics
 layout activity_transport_details_info
 layout activity_tutor_providers
 layout activity_user_profiles
@@ -3646,7 +3608,6 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout doctor_single_profile
-layout drop_down_item
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3719,7 +3680,6 @@ layout select_dialog_singlechoice_material
 layout singlerow
 layout support_simple_spinner_dropdown_item
 layout transportsinglerow
-menu menu_item
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round

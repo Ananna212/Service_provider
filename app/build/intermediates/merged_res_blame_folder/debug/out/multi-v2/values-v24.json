@@ -4,6 +4,16 @@
             "outputFile": "com.project.service_provider.app-mergeDebugResources-37:/values-v24/values-v24.xml",
             "map": [
                 {
+                    "source": "/home/shrabon/.gradle/caches/transforms-3/5b5b6ccb04b70e7c5eda16986a7d4278/transformed/appcompat-1.6.0/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                },
+                {
                     "source": "/home/shrabon/.gradle/caches/transforms-3/04459f37fb9d66122c3ec612fa3efd2b/transformed/material-1.8.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
@@ -20,16 +30,6 @@
                         "endLines": "4,5,6,7,10,13,16,19",
                         "endColumns": "84,98,86,100,10,10,10,10",
                         "endOffsets": "427,526,613,714,913,1126,1327,1542"
-                    }
-                },
-                {
-                    "source": "/home/shrabon/.gradle/caches/transforms-3/b88210cd606ad63f433ac0a48c39b1e0/transformed/appcompat-1.6.1/res/values-v24/values-v24.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,212",
-                        "endColumns": "156,134",
-                        "endOffsets": "207,342"
                     }
                 },
                 {
