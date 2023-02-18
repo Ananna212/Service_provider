@@ -47,6 +47,7 @@ import java.util.Random;
 
 public class admin_transport extends AppCompatActivity {
     private static final int REQUEST_LOCATION_PERMISSION = 1;
+    private AlertDialog progressAlertDialog;
     TextInputLayout name, Vnumber, mobileNumber, DLnumber, location;
     Button srcbtn;
     ImageView imgupl, GeoL;
@@ -102,16 +103,14 @@ public class admin_transport extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-//                ProgressDialog dialog = new ProgressDialog(getActivity());
-//                dialog.setTitle("File Uploader");
-//                dialog.show();
+
                 String Name = name.getEditText().getText().toString();
                 String VihicleNumber = Vnumber.getEditText().getText().toString();
                 String MobileNumber = mobileNumber.getEditText().getText().toString();
                 String DrivingLNumber = DLnumber.getEditText().getText().toString();
                 String Location = location.getEditText().getText().toString().trim();
 
-//                String k_picurl = imageUri.toString();
+
 
 
                 if (TextUtils.isEmpty(Name)) {
@@ -131,24 +130,6 @@ public class admin_transport extends AppCompatActivity {
                     location.setError("Location cannot be empty");
                     location.requestFocus();
 
-                } else if (imageUri == null) {
-                    AlertDialog.Builder builder1 = new AlertDialog.Builder(admin_transport.this);
-                    builder1.setTitle("Alert !");
-                    builder1.setMessage("Image can't selected ! Please Select Image.");
-//                    builder1.setCancelable(true);
-
-                    builder1.setPositiveButton(
-                            "Ok",
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int id) {
-                                    dialog.cancel();
-                                }
-                            });
-
-
-                    AlertDialog alert11 = builder1.create();
-                    alert11.show();
-
                 } else {
 
 
@@ -156,6 +137,29 @@ public class admin_transport extends AppCompatActivity {
                     StorageReference uploder = storage.getReference("Image1" + new Random().nextInt(50));
 
                     uploder.putFile(imageUri)
+                            .addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
+                                @Override
+                                public void onProgress(UploadTask.TaskSnapshot taskSnapshot) {
+                                    if (progressAlertDialog == null) {
+                                        AlertDialog.Builder builder2 = new AlertDialog.Builder(admin_transport.this);
+                                        builder2.setTitle("Alert !");
+                                        builder2.setMessage("Uploaded: 0%");
+                                        builder2.setPositiveButton(
+                                                "Ok",
+                                                new DialogInterface.OnClickListener() {
+                                                    public void onClick(DialogInterface dialog, int id) {
+                                                        dialog.cancel();
+                                                    }
+                                                });
+
+                                        progressAlertDialog = builder2.create();
+                                        progressAlertDialog.show();
+                                    }
+
+                                    double progress = (100.0 * taskSnapshot.getBytesTransferred()) / taskSnapshot.getTotalByteCount();
+                                    progressAlertDialog.setMessage("Uploaded: " + (int) progress + "%");
+                                }
+                            })
                             .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                                 @Override
                                 public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
@@ -179,34 +183,6 @@ public class admin_transport extends AppCompatActivity {
                                         }
                                     });
 
-                                }
-                            })
-                            .addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
-                                @Override
-                                public void onProgress(UploadTask.TaskSnapshot taskSnapshot) {
-                                    if (imageUri != null) {
-
-
-                                        double progress = (100.0 * taskSnapshot.getBytesTransferred()) / taskSnapshot.getTotalByteCount();
-//                                        dialog.setMessage("Uploaded:"+(int)progress+"%");
-                                        AlertDialog.Builder builder2 = new AlertDialog.Builder(admin_transport.this);
-                                        builder2.setTitle("Alert !");
-                                        builder2.setMessage("Uploaded:" + (int) progress + "%");
-                                        //                    builder1.setCancelable(true);
-
-                                        builder2.setPositiveButton(
-                                                "Ok",
-                                                new DialogInterface.OnClickListener() {
-                                                    public void onClick(DialogInterface dialog, int id) {
-                                                        dialog.cancel();
-                                                    }
-                                                });
-
-
-                                        AlertDialog alert11 = builder2.create();
-                                        alert11.show();
-                                    }
-//                                       dialog.dismiss();
                                 }
                             });
                 }
@@ -249,6 +225,7 @@ public class admin_transport extends AppCompatActivity {
 
                 } else {
                     // location not found, try again or show an error message
+                    Toast.makeText(admin_transport.this, "location not found", Toast.LENGTH_SHORT).show();
                 }
             }
         });

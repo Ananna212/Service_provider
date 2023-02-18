@@ -13,12 +13,15 @@ drawable background
 drawable baseline_call_24
 drawable baseline_email_24
 drawable baseline_message_24
+drawable baseline_payments_24
 drawable baseline_person_outline_24
 drawable baseline_person_pin_24
 drawable baseline_place_24
 drawable baseline_security_24
 drawable button_style
 drawable card_style
+drawable card_style_ad
+drawable cerclebackground
 drawable education
 drawable flower
 drawable header_curve
@@ -37,6 +40,7 @@ id DlNumber
 id EducationBtn
 id LogOut
 id Mnumber
+id PAYMENT
 id Register
 id TransPortcard
 id TransportBtn
@@ -69,6 +73,8 @@ id imageView3
 id imageView4
 id imageView5
 id imageView6
+id imageViewcall
+id imageViewlocation
 id imaged
 id imagep
 id imgupload
@@ -116,6 +122,7 @@ id timagep
 id toolbar
 id toolbar_title
 id trsubmitBtn
+id txtclose
 id uaddress
 id umail
 id uname
@@ -128,6 +135,7 @@ layout activity_details_info
 layout activity_doctor_profile
 layout activity_login
 layout activity_main
+layout activity_paymentsystem
 layout activity_rough
 layout activity_signin
 layout activity_transport_details_info

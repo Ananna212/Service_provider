@@ -30,6 +30,7 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.OnProgressListener;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
+import com.project.service_provider.admin.admin_Doctor;
 import com.project.service_provider.admin.admin_transport;
 import com.project.service_provider.admin.transportHelper;
 
@@ -38,6 +39,7 @@ import java.util.Random;
 
 public class Signin_activity extends AppCompatActivity {
 
+    private AlertDialog progressAlertDialog;
     EditText username, email, address, pass, confirmpass;
     Button Register, logedIn;
     ImageView imgupl;
@@ -113,6 +115,29 @@ public class Signin_activity extends AppCompatActivity {
                     StorageReference uploder = storage.getReference("Image1"+new Random().nextInt(50));
 
                     uploder.putFile(imageUri)
+                            .addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
+                                @Override
+                                public void onProgress(UploadTask.TaskSnapshot taskSnapshot) {
+                                    if (progressAlertDialog == null) {
+                                        AlertDialog.Builder builder2 = new AlertDialog.Builder(Signin_activity.this);
+                                        builder2.setTitle("Alert !");
+                                        builder2.setMessage("Uploaded: 0%");
+                                        builder2.setPositiveButton(
+                                                "Ok",
+                                                new DialogInterface.OnClickListener() {
+                                                    public void onClick(DialogInterface dialog, int id) {
+                                                        dialog.cancel();
+                                                    }
+                                                });
+
+                                        progressAlertDialog = builder2.create();
+                                        progressAlertDialog.show();
+                                    }
+
+                                    double progress = (100.0 * taskSnapshot.getBytesTransferred()) / taskSnapshot.getTotalByteCount();
+                                    progressAlertDialog.setMessage("Uploaded: " + (int) progress + "%");
+                                }
+                            })
                             .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                                 @Override
                                 public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
@@ -144,35 +169,6 @@ public class Signin_activity extends AppCompatActivity {
                                         }
                                     });
 
-                                }
-                            })
-                            .addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
-                                @Override
-                                public void onProgress(UploadTask.TaskSnapshot taskSnapshot) {
-                                    if(imageUri != null){
-
-
-                                        double progress = (100.0 * taskSnapshot.getBytesTransferred()) / taskSnapshot.getTotalByteCount();
-//                                        dialog.setMessage("Uploaded:"+(int)progress+"%");
-                                        AlertDialog.Builder builder2 = new AlertDialog.Builder(Signin_activity.this);
-                                        builder2.setTitle("Alert !");
-                                        builder2.setMessage("Uploaded:"+(int)progress+"%");
-                                        //                    builder1.setCancelable(true);
-
-                                        builder2.setPositiveButton(
-                                                "Ok",
-                                                new DialogInterface.OnClickListener() {
-                                                    public void onClick(DialogInterface dialog, int id) {
-                                                        dialog.cancel();
-                                                    }
-                                                });
-
-
-
-                                        AlertDialog alert11 = builder2.create();
-                                        alert11.show();
-                                    }
-//                                       dialog.dismiss();
                                 }
                             });
 

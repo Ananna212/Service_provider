@@ -2740,6 +2740,7 @@ drawable background
 drawable baseline_call_24
 drawable baseline_email_24
 drawable baseline_message_24
+drawable baseline_payments_24
 drawable baseline_person_outline_24
 drawable baseline_person_pin_24
 drawable baseline_place_24
@@ -2754,6 +2755,8 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button_style
 drawable card_style
+drawable card_style_ad
+drawable cerclebackground
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -2891,6 +2894,7 @@ id LogOut
 id META
 id Mnumber
 id NO_DEBUG
+id PAYMENT
 id Register
 id SHIFT
 id SHOW_ALL
@@ -3146,6 +3150,8 @@ id imageView3
 id imageView4
 id imageView5
 id imageView6
+id imageViewcall
+id imageViewlocation
 id imaged
 id imagep
 id imgupload
@@ -3448,6 +3454,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id trsubmitBtn
+id txtclose
 id uaddress
 id umail
 id uname
@@ -3591,6 +3598,7 @@ layout activity_details_info
 layout activity_doctor_profile
 layout activity_login
 layout activity_main
+layout activity_paymentsystem
 layout activity_rough
 layout activity_signin
 layout activity_transport_details_info
