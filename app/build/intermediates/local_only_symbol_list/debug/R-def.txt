@@ -35,6 +35,7 @@ drawable notification1
 drawable profile
 drawable rounded_relativelayout
 drawable search_view_bg2
+drawable statistics
 drawable transport
 id DlNumber
 id EducationBtn
@@ -59,6 +60,7 @@ id doctor_name
 id doctor_phone
 id doctor_specialite
 id driverName
+id drop1
 id education
 id email
 id festhEmail
@@ -89,6 +91,7 @@ id loginLayout
 id medical
 id pass
 id passwords
+id pieChart
 id profile
 id profileClick
 id ratingBar
@@ -97,6 +100,7 @@ id relativeLayout
 id searchA
 id signIn
 id signUp
+id statistics
 id submitBtn
 id tLocation
 id tcard_n
@@ -138,10 +142,12 @@ layout activity_main
 layout activity_paymentsystem
 layout activity_rough
 layout activity_signin
+layout activity_statistics
 layout activity_transport_details_info
 layout activity_tutor_providers
 layout activity_user_profiles
 layout doctor_single_profile
+layout drop_down_item
 layout singlerow
 layout transportsinglerow
 mipmap ic_launcher

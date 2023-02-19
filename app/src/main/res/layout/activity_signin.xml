@@ -30,7 +30,7 @@
             android:layout_height="130dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:src="@drawable/add_img_24"
+            android:src="@drawable/profile"
             />
     </LinearLayout>
 
@@ -39,6 +39,30 @@
        android:orientation="vertical"
        android:layout_width="match_parent"
        android:layout_height="wrap_content">
+
+       <com.google.android.material.textfield.TextInputLayout
+           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:hint="Catagory"
+           android:textColorHint="@color/black"
+           app:boxBackgroundColor="@color/white"
+           app:boxStrokeColor="@color/black"
+           app:endIconTint="@color/black"
+           app:hintTextColor="#124c7e">
+
+           <AutoCompleteTextView
+               android:background="@drawable/card_style"
+               android:id="@+id/drop1"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:inputType="none"
+               android:textColor="@color/black">
+
+           </AutoCompleteTextView>
+       </com.google.android.material.textfield.TextInputLayout>
+
 
        <EditText
            android:layout_width="match_parent"

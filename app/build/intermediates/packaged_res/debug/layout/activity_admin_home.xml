@@ -98,6 +98,31 @@
                 />
 
         </LinearLayout>
+        <LinearLayout
+            android:id="@+id/statistics"
+            android:layout_marginRight="20dp"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:background="@drawable/button_style"
+            >
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:src="@drawable/statistics"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Statistics"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
 
     </LinearLayout>
 

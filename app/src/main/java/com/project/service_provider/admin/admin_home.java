@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 import com.project.service_provider.R;
 
 public class admin_home extends AppCompatActivity {
-    LinearLayout Ed,tr,md;
+    LinearLayout Ed,tr,md,st;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +20,7 @@ public class admin_home extends AppCompatActivity {
         Ed = findViewById(R.id.EducationBtn);
         tr = findViewById(R.id.TransportBtn);
         md = findViewById(R.id.infoAdd);
+        st = findViewById(R.id.statistics);
 
         md.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,6 +44,14 @@ public class admin_home extends AppCompatActivity {
             public void onClick(View v) {
                 Intent trintent = new Intent(admin_home.this,admin_transport.class);
                 startActivity(trintent);
+            }
+        });
+
+        st.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(admin_home.this,Statistics.class);
+                startActivity(intent);
             }
         });
     }
