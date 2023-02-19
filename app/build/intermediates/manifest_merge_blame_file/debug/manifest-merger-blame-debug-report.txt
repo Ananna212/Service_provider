@@ -28,291 +28,306 @@
 16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 16-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:10:5-79
 16-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:10:22-76
-17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-17-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
-17-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:24:22-76
-18
-19    <permission
-19-->[androidx.core:core:1.9.0] /home/shrabon/.gradle/caches/transforms-3/1062255b96208a30fa01192cd1d10fce/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
-20        android:name="com.project.service_provider.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-20-->[androidx.core:core:1.9.0] /home/shrabon/.gradle/caches/transforms-3/1062255b96208a30fa01192cd1d10fce/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
-21        android:protectionLevel="signature" />
-21-->[androidx.core:core:1.9.0] /home/shrabon/.gradle/caches/transforms-3/1062255b96208a30fa01192cd1d10fce/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
-22
-23    <uses-permission android:name="com.project.service_provider.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-23-->[androidx.core:core:1.9.0] /home/shrabon/.gradle/caches/transforms-3/1062255b96208a30fa01192cd1d10fce/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
-23-->[androidx.core:core:1.9.0] /home/shrabon/.gradle/caches/transforms-3/1062255b96208a30fa01192cd1d10fce/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
-24
-25    <application
-25-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:12:5-66:19
-26        android:allowBackup="true"
-26-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:13:9-35
-27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-27-->[androidx.core:core:1.9.0] /home/shrabon/.gradle/caches/transforms-3/1062255b96208a30fa01192cd1d10fce/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
-28        android:dataExtractionRules="@xml/data_extraction_rules"
-28-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:14:9-65
-29        android:debuggable="true"
-30        android:fullBackupContent="@xml/backup_rules"
-30-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:15:9-54
-31        android:icon="@mipmap/ic_launcher"
-31-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:16:9-43
-32        android:label="@string/app_name"
-32-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:17:9-41
-33        android:supportsRtl="true"
-33-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:18:9-35
-34        android:testOnly="true"
-35        android:theme="@style/Theme.Service_Provider" >
-35-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:19:9-54
-36        <activity
-36-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:21:9-23:40
-37            android:name="com.project.service_provider.admin.admin_Doctor"
-37-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:22:13-47
-38            android:exported="false" />
-38-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:23:13-37
-39        <activity
-39-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:24:9-26:40
-40            android:name="com.project.service_provider.Activity_doctor_profile"
-40-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:25:13-52
-41            android:exported="false" />
-41-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:26:13-37
-42        <activity
-42-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:27:9-29:40
-43            android:name="com.project.service_provider.admin.TransportDetailsInfo"
-43-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:28:13-55
-44            android:exported="false" />
-44-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:29:13-37
-45        <activity
-45-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:30:9-32:40
-46            android:name="com.project.service_provider.admin.admin_transport"
-46-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:31:13-50
-47            android:exported="false" />
-47-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:32:13-37
-48        <activity
-48-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:33:9-35:40
-49            android:name="com.project.service_provider.detailsInfo"
-49-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:34:13-40
-50            android:exported="false" />
-50-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:35:13-37
-51        <activity
-51-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:36:9-38:40
-52            android:name="com.project.service_provider.admin.admin_Education"
-52-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:37:13-50
-53            android:exported="false" />
-53-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:38:13-37
-54        <activity
-54-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:39:9-41:40
-55            android:name="com.project.service_provider.admin.admin_home"
-55-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:40:13-45
-56            android:exported="false" />
-56-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:41:13-37
-57        <activity
-57-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:42:9-44:40
-58            android:name="com.project.service_provider.User_profiles"
-58-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:43:13-42
-59            android:exported="false" />
-59-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:44:13-37
-60        <activity
-60-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:45:9-47:40
-61            android:name="com.project.service_provider.TutorProviders"
-61-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:46:13-43
-62            android:exported="false" />
-62-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:47:13-37
-63        <activity
-63-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:48:9-50:40
-64            android:name="com.project.service_provider.Rough"
-64-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:49:13-34
-65            android:exported="false" />
-65-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:50:13-37
-66        <activity
-66-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:51:9-53:40
-67            android:name="com.project.service_provider.Signin_activity"
-67-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:52:13-44
-68            android:exported="false" />
-68-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:53:13-37
-69        <activity
-69-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:54:9-56:40
-70            android:name="com.project.service_provider.MainActivity"
-70-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:55:13-41
-71            android:exported="false" />
-71-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:56:13-37
-72        <activity
-72-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:57:9-65:20
-73            android:name="com.project.service_provider.Login_activity"
-73-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:58:13-43
-74            android:exported="true" >
-74-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:59:13-36
-75            <intent-filter>
-75-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:60:13-64:29
-76                <action android:name="android.intent.action.MAIN" />
-76-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:61:17-69
-76-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:61:25-66
-77
-78                <category android:name="android.intent.category.LAUNCHER" />
-78-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:63:17-77
-78-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:63:27-74
-79            </intent-filter>
-80        </activity>
-81        <activity
-81-->[com.karumi:dexter:6.2.3] /home/shrabon/.gradle/caches/transforms-3/8e5975fc9e34e8dd139fc97821004f6a/transformed/dexter-6.2.3/AndroidManifest.xml:27:9-29:72
-82            android:name="com.karumi.dexter.DexterActivity"
-82-->[com.karumi:dexter:6.2.3] /home/shrabon/.gradle/caches/transforms-3/8e5975fc9e34e8dd139fc97821004f6a/transformed/dexter-6.2.3/AndroidManifest.xml:28:13-60
-83            android:theme="@style/Dexter.Internal.Theme.Transparent" />
-83-->[com.karumi:dexter:6.2.3] /home/shrabon/.gradle/caches/transforms-3/8e5975fc9e34e8dd139fc97821004f6a/transformed/dexter-6.2.3/AndroidManifest.xml:29:13-69
-84        <activity
-84-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
-85            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-85-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
-86            android:excludeFromRecents="true"
-86-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
-87            android:exported="true"
-87-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
-88            android:launchMode="singleTask"
-88-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
-89            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-89-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
-90            <intent-filter>
-90-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
-91                <action android:name="android.intent.action.VIEW" />
-91-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
-91-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
-92
-93                <category android:name="android.intent.category.DEFAULT" />
-93-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
-93-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
-94                <category android:name="android.intent.category.BROWSABLE" />
-94-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
-94-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
-95
-96                <data
-96-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
-97                    android:host="firebase.auth"
-97-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
-98                    android:path="/"
-98-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
-99                    android:scheme="genericidp" />
-99-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
-100            </intent-filter>
-101        </activity>
-102        <activity
-102-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
-103            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-103-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
-104            android:excludeFromRecents="true"
-104-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
-105            android:exported="true"
-105-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
-106            android:launchMode="singleTask"
-106-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
-107            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-107-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
-108            <intent-filter>
-108-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
-109                <action android:name="android.intent.action.VIEW" />
-109-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
-109-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
-110
-111                <category android:name="android.intent.category.DEFAULT" />
-111-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
-111-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
-112                <category android:name="android.intent.category.BROWSABLE" />
-112-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
-112-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
-113
-114                <data
-114-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
-115                    android:host="firebase.auth"
-115-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
-116                    android:path="/"
-116-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
-117                    android:scheme="recaptcha" />
-117-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
-118            </intent-filter>
-119        </activity>
+17    <uses-permission android:name="android.permission.CALL_PHONE" />
+17-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:11:5-69
+17-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:11:22-66
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
+18-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:24:22-76
+19
+20    <permission
+20-->[androidx.core:core:1.9.0] /home/shrabon/.gradle/caches/transforms-3/1062255b96208a30fa01192cd1d10fce/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+21        android:name="com.project.service_provider.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.9.0] /home/shrabon/.gradle/caches/transforms-3/1062255b96208a30fa01192cd1d10fce/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.9.0] /home/shrabon/.gradle/caches/transforms-3/1062255b96208a30fa01192cd1d10fce/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.project.service_provider.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.9.0] /home/shrabon/.gradle/caches/transforms-3/1062255b96208a30fa01192cd1d10fce/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.9.0] /home/shrabon/.gradle/caches/transforms-3/1062255b96208a30fa01192cd1d10fce/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:13:5-73:19
+27        android:allowBackup="true"
+27-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:14:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.9.0] /home/shrabon/.gradle/caches/transforms-3/1062255b96208a30fa01192cd1d10fce/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+29        android:dataExtractionRules="@xml/data_extraction_rules"
+29-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:15:9-65
+30        android:debuggable="true"
+31        android:fullBackupContent="@xml/backup_rules"
+31-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:16:9-54
+32        android:icon="@mipmap/ic_launcher"
+32-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:17:9-43
+33        android:label="@string/app_name"
+33-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:18:9-41
+34        android:supportsRtl="true"
+34-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:19:9-35
+35        android:testOnly="true"
+36        android:theme="@style/Theme.Service_Provider" >
+36-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:20:9-54
+37        <activity
+37-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:22:9-24:40
+38            android:name="com.project.service_provider.admin.Statistics"
+38-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:23:13-45
+39            android:exported="false" />
+39-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:24:13-37
+40        <activity
+40-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:25:9-27:40
+41            android:name="com.project.service_provider.paymentsystem"
+41-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:26:13-42
+42            android:exported="false" />
+42-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:27:13-37
+43        <activity
+43-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:28:9-30:40
+44            android:name="com.project.service_provider.admin.admin_Doctor"
+44-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:29:13-47
+45            android:exported="false" />
+45-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:30:13-37
+46        <activity
+46-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:31:9-33:40
+47            android:name="com.project.service_provider.Activity_doctor_profile"
+47-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:32:13-52
+48            android:exported="false" />
+48-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:33:13-37
+49        <activity
+49-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:34:9-36:40
+50            android:name="com.project.service_provider.admin.TransportDetailsInfo"
+50-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:35:13-55
+51            android:exported="false" />
+51-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:36:13-37
+52        <activity
+52-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:37:9-39:40
+53            android:name="com.project.service_provider.admin.admin_transport"
+53-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:38:13-50
+54            android:exported="false" />
+54-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:39:13-37
+55        <activity
+55-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:40:9-42:40
+56            android:name="com.project.service_provider.detailsInfo"
+56-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:41:13-40
+57            android:exported="false" />
+57-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:42:13-37
+58        <activity
+58-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:43:9-45:40
+59            android:name="com.project.service_provider.admin.admin_Education"
+59-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:44:13-50
+60            android:exported="false" />
+60-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:45:13-37
+61        <activity
+61-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:46:9-48:40
+62            android:name="com.project.service_provider.admin.admin_home"
+62-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:47:13-45
+63            android:exported="false" />
+63-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:48:13-37
+64        <activity
+64-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:49:9-51:40
+65            android:name="com.project.service_provider.User_profiles"
+65-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:50:13-42
+66            android:exported="false" />
+66-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:51:13-37
+67        <activity
+67-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:52:9-54:40
+68            android:name="com.project.service_provider.TutorProviders"
+68-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:53:13-43
+69            android:exported="false" />
+69-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:54:13-37
+70        <activity
+70-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:55:9-57:40
+71            android:name="com.project.service_provider.Rough"
+71-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:56:13-34
+72            android:exported="false" />
+72-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:57:13-37
+73        <activity
+73-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:58:9-60:40
+74            android:name="com.project.service_provider.Signin_activity"
+74-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:59:13-44
+75            android:exported="false" />
+75-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:60:13-37
+76        <activity
+76-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:61:9-63:40
+77            android:name="com.project.service_provider.MainActivity"
+77-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:62:13-41
+78            android:exported="false" />
+78-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:63:13-37
+79        <activity
+79-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:64:9-72:20
+80            android:name="com.project.service_provider.Login_activity"
+80-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:65:13-43
+81            android:exported="true" >
+81-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:66:13-36
+82            <intent-filter>
+82-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:67:13-71:29
+83                <action android:name="android.intent.action.MAIN" />
+83-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:68:17-69
+83-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:68:25-66
+84
+85                <category android:name="android.intent.category.LAUNCHER" />
+85-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:70:17-77
+85-->/home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:70:27-74
+86            </intent-filter>
+87        </activity>
+88        <activity
+88-->[com.karumi:dexter:6.2.3] /home/shrabon/.gradle/caches/transforms-3/8e5975fc9e34e8dd139fc97821004f6a/transformed/dexter-6.2.3/AndroidManifest.xml:27:9-29:72
+89            android:name="com.karumi.dexter.DexterActivity"
+89-->[com.karumi:dexter:6.2.3] /home/shrabon/.gradle/caches/transforms-3/8e5975fc9e34e8dd139fc97821004f6a/transformed/dexter-6.2.3/AndroidManifest.xml:28:13-60
+90            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+90-->[com.karumi:dexter:6.2.3] /home/shrabon/.gradle/caches/transforms-3/8e5975fc9e34e8dd139fc97821004f6a/transformed/dexter-6.2.3/AndroidManifest.xml:29:13-69
+91        <activity
+91-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+92            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+92-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+93            android:excludeFromRecents="true"
+93-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+94            android:exported="true"
+94-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+95            android:launchMode="singleTask"
+95-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+96            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+96-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+97            <intent-filter>
+97-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+98                <action android:name="android.intent.action.VIEW" />
+98-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+98-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+99
+100                <category android:name="android.intent.category.DEFAULT" />
+100-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+100-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+101                <category android:name="android.intent.category.BROWSABLE" />
+101-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+101-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+102
+103                <data
+103-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+104                    android:host="firebase.auth"
+104-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+105                    android:path="/"
+105-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+106                    android:scheme="genericidp" />
+106-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+107            </intent-filter>
+108        </activity>
+109        <activity
+109-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+110            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+110-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+111            android:excludeFromRecents="true"
+111-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+112            android:exported="true"
+112-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+113            android:launchMode="singleTask"
+113-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+114-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+115            <intent-filter>
+115-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+116                <action android:name="android.intent.action.VIEW" />
+116-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+116-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+117
+118                <category android:name="android.intent.category.DEFAULT" />
+118-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+118-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+119                <category android:name="android.intent.category.BROWSABLE" />
+119-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+119-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
 120
-121        <service
-121-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
-122            android:name="com.google.firebase.components.ComponentDiscoveryService"
-122-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:65:13-84
-123            android:directBootAware="true"
-123-->[com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:34:13-43
-124            android:exported="false" >
-124-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:66:13-37
-125            <meta-data
-125-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
-126                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-126-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
-127                android:value="com.google.firebase.components.ComponentRegistrar" />
-127-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
-128            <meta-data
-128-->[com.google.firebase:firebase-firestore:24.1.1] /home/shrabon/.gradle/caches/transforms-3/7997b337bd20d0dccb0d5b2b3d858de7/transformed/firebase-firestore-24.1.1/AndroidManifest.xml:20:13-22:85
-129                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-129-->[com.google.firebase:firebase-firestore:24.1.1] /home/shrabon/.gradle/caches/transforms-3/7997b337bd20d0dccb0d5b2b3d858de7/transformed/firebase-firestore-24.1.1/AndroidManifest.xml:21:17-111
-130                android:value="com.google.firebase.components.ComponentRegistrar" />
-130-->[com.google.firebase:firebase-firestore:24.1.1] /home/shrabon/.gradle/caches/transforms-3/7997b337bd20d0dccb0d5b2b3d858de7/transformed/firebase-firestore-24.1.1/AndroidManifest.xml:22:17-82
-131            <meta-data
-131-->[com.google.firebase:firebase-storage:20.1.0] /home/shrabon/.gradle/caches/transforms-3/806ad99a62e5870765fd630b695ff25e/transformed/firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
-132                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-132-->[com.google.firebase:firebase-storage:20.1.0] /home/shrabon/.gradle/caches/transforms-3/806ad99a62e5870765fd630b695ff25e/transformed/firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
-133                android:value="com.google.firebase.components.ComponentRegistrar" />
-133-->[com.google.firebase:firebase-storage:20.1.0] /home/shrabon/.gradle/caches/transforms-3/806ad99a62e5870765fd630b695ff25e/transformed/firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
-134            <meta-data
-134-->[com.google.firebase:firebase-database:20.0.0] /home/shrabon/.gradle/caches/transforms-3/70891dc0c67e1ae009b81ea2f1ccf0ce/transformed/firebase-database-20.0.0/AndroidManifest.xml:32:13-34:85
-135                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-135-->[com.google.firebase:firebase-database:20.0.0] /home/shrabon/.gradle/caches/transforms-3/70891dc0c67e1ae009b81ea2f1ccf0ce/transformed/firebase-database-20.0.0/AndroidManifest.xml:33:17-109
-136                android:value="com.google.firebase.components.ComponentRegistrar" />
-136-->[com.google.firebase:firebase-database:20.0.0] /home/shrabon/.gradle/caches/transforms-3/70891dc0c67e1ae009b81ea2f1ccf0ce/transformed/firebase-database-20.0.0/AndroidManifest.xml:34:17-82
-137        </service>
-138
-139        <provider
-139-->[com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
-140            android:name="com.google.firebase.provider.FirebaseInitProvider"
-140-->[com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:26:13-77
-141            android:authorities="com.project.service_provider.firebaseinitprovider"
-141-->[com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:27:13-72
-142            android:directBootAware="true"
-142-->[com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:28:13-43
-143            android:exported="false"
-143-->[com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:29:13-37
-144            android:initOrder="100" />
-144-->[com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+121                <data
+121-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+122                    android:host="firebase.auth"
+122-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+123                    android:path="/"
+123-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+124                    android:scheme="recaptcha" />
+124-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+125            </intent-filter>
+126        </activity>
+127
+128        <service
+128-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
+129            android:name="com.google.firebase.components.ComponentDiscoveryService"
+129-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:65:13-84
+130            android:directBootAware="true"
+130-->[com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+131            android:exported="false" >
+131-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:66:13-37
+132            <meta-data
+132-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+133                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+133-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+134                android:value="com.google.firebase.components.ComponentRegistrar" />
+134-->[com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+135            <meta-data
+135-->[com.google.firebase:firebase-firestore:24.4.3] /home/shrabon/.gradle/caches/transforms-3/d80ad32f2ab165ab7c9fb80e45a6b49a/transformed/firebase-firestore-24.4.3/AndroidManifest.xml:19:13-21:85
+136                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+136-->[com.google.firebase:firebase-firestore:24.4.3] /home/shrabon/.gradle/caches/transforms-3/d80ad32f2ab165ab7c9fb80e45a6b49a/transformed/firebase-firestore-24.4.3/AndroidManifest.xml:20:17-111
+137                android:value="com.google.firebase.components.ComponentRegistrar" />
+137-->[com.google.firebase:firebase-firestore:24.4.3] /home/shrabon/.gradle/caches/transforms-3/d80ad32f2ab165ab7c9fb80e45a6b49a/transformed/firebase-firestore-24.4.3/AndroidManifest.xml:21:17-82
+138            <meta-data
+138-->[com.google.firebase:firebase-storage:20.1.0] /home/shrabon/.gradle/caches/transforms-3/806ad99a62e5870765fd630b695ff25e/transformed/firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
+139                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+139-->[com.google.firebase:firebase-storage:20.1.0] /home/shrabon/.gradle/caches/transforms-3/806ad99a62e5870765fd630b695ff25e/transformed/firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+140                android:value="com.google.firebase.components.ComponentRegistrar" />
+140-->[com.google.firebase:firebase-storage:20.1.0] /home/shrabon/.gradle/caches/transforms-3/806ad99a62e5870765fd630b695ff25e/transformed/firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
+141            <meta-data
+141-->[com.google.firebase:firebase-database:20.0.0] /home/shrabon/.gradle/caches/transforms-3/70891dc0c67e1ae009b81ea2f1ccf0ce/transformed/firebase-database-20.0.0/AndroidManifest.xml:32:13-34:85
+142                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+142-->[com.google.firebase:firebase-database:20.0.0] /home/shrabon/.gradle/caches/transforms-3/70891dc0c67e1ae009b81ea2f1ccf0ce/transformed/firebase-database-20.0.0/AndroidManifest.xml:33:17-109
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[com.google.firebase:firebase-database:20.0.0] /home/shrabon/.gradle/caches/transforms-3/70891dc0c67e1ae009b81ea2f1ccf0ce/transformed/firebase-database-20.0.0/AndroidManifest.xml:34:17-82
+144        </service>
 145
-146        <activity
-146-->[com.google.android.gms:play-services-base:18.0.1] /home/shrabon/.gradle/caches/transforms-3/8641cd57dba604f55449d6051e24e0cd/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
-147            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-147-->[com.google.android.gms:play-services-base:18.0.1] /home/shrabon/.gradle/caches/transforms-3/8641cd57dba604f55449d6051e24e0cd/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
-148            android:exported="false"
-148-->[com.google.android.gms:play-services-base:18.0.1] /home/shrabon/.gradle/caches/transforms-3/8641cd57dba604f55449d6051e24e0cd/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
-149            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-149-->[com.google.android.gms:play-services-base:18.0.1] /home/shrabon/.gradle/caches/transforms-3/8641cd57dba604f55449d6051e24e0cd/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
-150
-151        <meta-data
-151-->[com.google.android.gms:play-services-basement:18.1.0] /home/shrabon/.gradle/caches/transforms-3/bb2407d419e768075aaf287775f658a0/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
-152            android:name="com.google.android.gms.version"
-152-->[com.google.android.gms:play-services-basement:18.1.0] /home/shrabon/.gradle/caches/transforms-3/bb2407d419e768075aaf287775f658a0/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
-153            android:value="@integer/google_play_services_version" />
-153-->[com.google.android.gms:play-services-basement:18.1.0] /home/shrabon/.gradle/caches/transforms-3/bb2407d419e768075aaf287775f658a0/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
-154
-155        <provider
-155-->[androidx.emoji2:emoji2:1.2.0] /home/shrabon/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-156            android:name="androidx.startup.InitializationProvider"
-156-->[androidx.emoji2:emoji2:1.2.0] /home/shrabon/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-157            android:authorities="com.project.service_provider.androidx-startup"
-157-->[androidx.emoji2:emoji2:1.2.0] /home/shrabon/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-158            android:exported="false" >
-158-->[androidx.emoji2:emoji2:1.2.0] /home/shrabon/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-159            <meta-data
-159-->[androidx.emoji2:emoji2:1.2.0] /home/shrabon/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-160                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-160-->[androidx.emoji2:emoji2:1.2.0] /home/shrabon/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-161                android:value="androidx.startup" />
-161-->[androidx.emoji2:emoji2:1.2.0] /home/shrabon/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-162            <meta-data
-162-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/shrabon/.gradle/caches/transforms-3/53bd544b32482eade1e35dd3cd9b43de/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-163                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-163-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/shrabon/.gradle/caches/transforms-3/53bd544b32482eade1e35dd3cd9b43de/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-164                android:value="androidx.startup" />
-164-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/shrabon/.gradle/caches/transforms-3/53bd544b32482eade1e35dd3cd9b43de/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-165        </provider>
-166    </application>
-167
-168</manifest>
+146        <provider
+146-->[com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+147            android:name="com.google.firebase.provider.FirebaseInitProvider"
+147-->[com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+148            android:authorities="com.project.service_provider.firebaseinitprovider"
+148-->[com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+149            android:directBootAware="true"
+149-->[com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+150            android:exported="false"
+150-->[com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+151            android:initOrder="100" />
+151-->[com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+152
+153        <activity
+153-->[com.google.android.gms:play-services-base:18.1.0] /home/shrabon/.gradle/caches/transforms-3/6d61f86309566abcbffb8fa4b53344c3/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+154            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+154-->[com.google.android.gms:play-services-base:18.1.0] /home/shrabon/.gradle/caches/transforms-3/6d61f86309566abcbffb8fa4b53344c3/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+155            android:exported="false"
+155-->[com.google.android.gms:play-services-base:18.1.0] /home/shrabon/.gradle/caches/transforms-3/6d61f86309566abcbffb8fa4b53344c3/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+156            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+156-->[com.google.android.gms:play-services-base:18.1.0] /home/shrabon/.gradle/caches/transforms-3/6d61f86309566abcbffb8fa4b53344c3/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+157
+158        <meta-data
+158-->[com.google.android.gms:play-services-basement:18.1.0] /home/shrabon/.gradle/caches/transforms-3/bb2407d419e768075aaf287775f658a0/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+159            android:name="com.google.android.gms.version"
+159-->[com.google.android.gms:play-services-basement:18.1.0] /home/shrabon/.gradle/caches/transforms-3/bb2407d419e768075aaf287775f658a0/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+160            android:value="@integer/google_play_services_version" />
+160-->[com.google.android.gms:play-services-basement:18.1.0] /home/shrabon/.gradle/caches/transforms-3/bb2407d419e768075aaf287775f658a0/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+161
+162        <provider
+162-->[androidx.emoji2:emoji2:1.2.0] /home/shrabon/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+163            android:name="androidx.startup.InitializationProvider"
+163-->[androidx.emoji2:emoji2:1.2.0] /home/shrabon/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+164            android:authorities="com.project.service_provider.androidx-startup"
+164-->[androidx.emoji2:emoji2:1.2.0] /home/shrabon/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+165            android:exported="false" >
+165-->[androidx.emoji2:emoji2:1.2.0] /home/shrabon/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+166            <meta-data
+166-->[androidx.emoji2:emoji2:1.2.0] /home/shrabon/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+167                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+167-->[androidx.emoji2:emoji2:1.2.0] /home/shrabon/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+168                android:value="androidx.startup" />
+168-->[androidx.emoji2:emoji2:1.2.0] /home/shrabon/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+169            <meta-data
+169-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/shrabon/.gradle/caches/transforms-3/53bd544b32482eade1e35dd3cd9b43de/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+170                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+170-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/shrabon/.gradle/caches/transforms-3/53bd544b32482eade1e35dd3cd9b43de/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+171                android:value="androidx.startup" />
+171-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/shrabon/.gradle/caches/transforms-3/53bd544b32482eade1e35dd3cd9b43de/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+172        </provider>
+173    </application>
+174
+175</manifest>

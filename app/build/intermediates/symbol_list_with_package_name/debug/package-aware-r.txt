@@ -2874,6 +2874,7 @@ drawable notify_panel_notification_icon_bg
 drawable profile
 drawable rounded_relativelayout
 drawable search_view_bg2
+drawable statistics
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3075,6 +3076,7 @@ id dragRight
 id dragStart
 id dragUp
 id driverName
+id drop1
 id dropdown_menu
 id easeIn
 id easeInOut
@@ -3275,6 +3277,7 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id pieChart
 id pin
 id position
 id postLayout
@@ -3367,6 +3370,7 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id statistics
 id status_bar_latest_event_content
 id stop
 id stretch
@@ -3586,6 +3590,7 @@ layout activity_login
 layout activity_main
 layout activity_rough
 layout activity_signin
+layout activity_statistics
 layout activity_transport_details_info
 layout activity_tutor_providers
 layout activity_user_profiles
@@ -3608,6 +3613,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout doctor_single_profile
+layout drop_down_item
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
