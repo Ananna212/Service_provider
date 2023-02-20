@@ -38,9 +38,6 @@
             android:name="com.project.service_provider.admin.Statistics"
             android:exported="false" />
         <activity
-            android:name="com.project.service_provider.paymentsystem"
-            android:exported="false" />
-        <activity
             android:name="com.project.service_provider.admin.admin_Doctor"
             android:exported="false" />
         <activity

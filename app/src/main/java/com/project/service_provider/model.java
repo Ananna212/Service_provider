@@ -1,15 +1,17 @@
 package com.project.service_provider;
 
 public class model {
-     private String Username,Email,Address,Pass,Confirmpass;
+     private String Username,Email,Address,Pass,Confirmpass,pic;
 
-    public model(String username, String email, String address, String pass, String confirmpass) {
+    public model(String username, String email, String address, String pass, String confirmpass, String pic) {
         Username = username;
         Email = email;
         Address = address;
         Pass = pass;
         Confirmpass = confirmpass;
+        this.pic = pic;
     }
+
 
     public String getUsername() {
         return Username;
@@ -49,5 +51,13 @@ public class model {
 
     public void setConfirmpass(String confirmpass) {
         Confirmpass = confirmpass;
+    }
+
+    public String getPic() {
+        return pic;
+    }
+
+    public void setPic(String pic) {
+        this.pic = pic;
     }
 }

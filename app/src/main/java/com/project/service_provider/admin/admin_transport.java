@@ -9,6 +9,7 @@ import androidx.core.content.ContextCompat;
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -27,6 +28,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.google.android.gms.location.FusedLocationProviderClient;
+import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.database.DatabaseReference;
@@ -42,15 +45,17 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Random;
 
-public class admin_transport extends AppCompatActivity implements LocationListener {
-
-    TextInputLayout name,Vnumber,mobileNumber,DLnumber,location;
+public class admin_transport extends AppCompatActivity {
+    private static final int REQUEST_LOCATION_PERMISSION = 1;
+    private AlertDialog progressAlertDialog;
+    TextInputLayout name, Vnumber, mobileNumber, DLnumber, location;
     Button srcbtn;
-    ImageView imgupl,GeoL;
+    ImageView imgupl, GeoL;
     Uri imageUri;
     Bitmap bitmap;
 
-    LocationManager locationManager;
+    private LocationManager locationManager;
+    private LocationListener locationListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,15 +75,16 @@ public class admin_transport extends AppCompatActivity implements LocationListen
             @Override
             public void onClick(View v) {
 
-                //Runtime Permission
-                if(ContextCompat.checkSelfPermission(admin_transport.this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED){
-                    ActivityCompat.requestPermissions(admin_transport.this, new String[]{
-                            Manifest.permission.ACCESS_FINE_LOCATION
-                    },100);
+                locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+
+                if (ContextCompat.checkSelfPermission(admin_transport.this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                    ActivityCompat.requestPermissions(admin_transport.this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, REQUEST_LOCATION_PERMISSION);
+                } else {
+                    // permission has already been granted
+                    getlocation();
                 }
 
 
-                getlocation();
             }
         });
 
@@ -86,7 +92,7 @@ public class admin_transport extends AppCompatActivity implements LocationListen
             @Override
             public void onClick(View v) {
 
-                Intent intent =  new Intent(Intent.ACTION_PICK);
+                Intent intent = new Intent(Intent.ACTION_PICK);
                 intent.setType("image/*");
                 startActivityForResult(Intent.createChooser(intent, "Select Image File"), 1);
 
@@ -97,62 +103,63 @@ public class admin_transport extends AppCompatActivity implements LocationListen
             @Override
             public void onClick(View view) {
 
-//                ProgressDialog dialog = new ProgressDialog(getActivity());
-//                dialog.setTitle("File Uploader");
-//                dialog.show();
+
                 String Name = name.getEditText().getText().toString();
                 String VihicleNumber = Vnumber.getEditText().getText().toString();
                 String MobileNumber = mobileNumber.getEditText().getText().toString();
                 String DrivingLNumber = DLnumber.getEditText().getText().toString();
-                String  Location = location.getEditText().getText().toString().trim();
-
-//                String k_picurl = imageUri.toString();
+                String Location = location.getEditText().getText().toString().trim();
 
 
-                if(TextUtils.isEmpty(Name)){
+
+
+                if (TextUtils.isEmpty(Name)) {
                     name.setError("Name cannot be empty");
                     name.requestFocus();
-                }else if(TextUtils.isEmpty(VihicleNumber)){
+                } else if (TextUtils.isEmpty(VihicleNumber)) {
                     Vnumber.setError("VihicleNumber cannot be empty");
                     Vnumber.requestFocus();
-                }else if(TextUtils.isEmpty(MobileNumber)){
+                } else if (TextUtils.isEmpty(MobileNumber)) {
                     mobileNumber.setError("MobileNumber cannot be empty");
                     mobileNumber.requestFocus();
-                }else if(TextUtils.isEmpty(DrivingLNumber)){
+                } else if (TextUtils.isEmpty(DrivingLNumber)) {
                     DLnumber.setError("DrivingLNumber cannot be empty");
                     DLnumber.requestFocus();
 
-                }else if(TextUtils.isEmpty(Location)){
+                } else if (TextUtils.isEmpty(Location)) {
                     location.setError("Location cannot be empty");
                     location.requestFocus();
 
-                }else if(imageUri == null){
-                    AlertDialog.Builder builder1 = new AlertDialog.Builder(admin_transport.this);
-                    builder1.setTitle("Alert !");
-                    builder1.setMessage("Image can't selected ! Please Select Image.");
-//                    builder1.setCancelable(true);
-
-                    builder1.setPositiveButton(
-                            "Ok",
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int id) {
-                                    dialog.cancel();
-                                }
-                            });
-
-
-
-                    AlertDialog alert11 = builder1.create();
-                    alert11.show();
-
-                }
-                else{
+                } else {
 
 
                     FirebaseStorage storage = FirebaseStorage.getInstance();
-                    StorageReference uploder = storage.getReference("Image1"+new Random().nextInt(50));
+                    StorageReference uploder = storage.getReference("Image1" + new Random().nextInt(50));
 
                     uploder.putFile(imageUri)
+                            .addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
+                                @Override
+                                public void onProgress(UploadTask.TaskSnapshot taskSnapshot) {
+                                    if (progressAlertDialog == null) {
+                                        AlertDialog.Builder builder2 = new AlertDialog.Builder(admin_transport.this);
+                                        builder2.setTitle("Alert !");
+                                        builder2.setMessage("Uploaded: 0%");
+                                        builder2.setPositiveButton(
+                                                "Ok",
+                                                new DialogInterface.OnClickListener() {
+                                                    public void onClick(DialogInterface dialog, int id) {
+                                                        dialog.cancel();
+                                                    }
+                                                });
+
+                                        progressAlertDialog = builder2.create();
+                                        progressAlertDialog.show();
+                                    }
+
+                                    double progress = (100.0 * taskSnapshot.getBytesTransferred()) / taskSnapshot.getTotalByteCount();
+                                    progressAlertDialog.setMessage("Uploaded: " + (int) progress + "%");
+                                }
+                            })
                             .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                                 @Override
                                 public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
@@ -162,7 +169,7 @@ public class admin_transport extends AppCompatActivity implements LocationListen
                                         public void onSuccess(Uri uri) {
                                             FirebaseDatabase rootNode = FirebaseDatabase.getInstance();
                                             DatabaseReference root = rootNode.getReference("Transport");
-                                            transportHelper helper = new transportHelper(Name,VihicleNumber,MobileNumber,DrivingLNumber,Location,uri.toString());
+                                            transportHelper helper = new transportHelper(Name, VihicleNumber, MobileNumber, DrivingLNumber, Location, uri.toString());
 
                                             root.child(Name).setValue(helper);
 
@@ -177,61 +184,71 @@ public class admin_transport extends AppCompatActivity implements LocationListen
                                     });
 
                                 }
-                            })
-                            .addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
-                                @Override
-                                public void onProgress(UploadTask.TaskSnapshot taskSnapshot) {
-                                    if(imageUri != null){
-
-
-                                        double progress = (100.0 * taskSnapshot.getBytesTransferred()) / taskSnapshot.getTotalByteCount();
-//                                        dialog.setMessage("Uploaded:"+(int)progress+"%");
-                                        AlertDialog.Builder builder2 = new AlertDialog.Builder(admin_transport.this);
-                                        builder2.setTitle("Alert !");
-                                        builder2.setMessage("Uploaded:"+(int)progress+"%");
-                                        //                    builder1.setCancelable(true);
-
-                                        builder2.setPositiveButton(
-                                                "Ok",
-                                                new DialogInterface.OnClickListener() {
-                                                    public void onClick(DialogInterface dialog, int id) {
-                                                        dialog.cancel();
-                                                    }
-                                                });
-
-
-
-                                        AlertDialog alert11 = builder2.create();
-                                        alert11.show();
-                                    }
-//                                       dialog.dismiss();
-                                }
                             });
                 }
             }
         });
     }
 
-    @SuppressLint("MissingPermission")
+
     private void getlocation() {
-
-
-
-        try {
-//            locationManager = (LocationManager) getApplicationContext().getSystemService(LOCATION_SERVICE);
-//            locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,5000,5,admin_transport.this);
-            if(locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
-                locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,5000,5,admin_transport.this);
-            } else {
-                // Prompt the user to enable GPS
-                Toast.makeText(admin_transport.this,"Enable GPS",Toast.LENGTH_LONG).show();
-            }
-
-        }catch (Exception e){
-            e.printStackTrace();
+        FusedLocationProviderClient client = LocationServices.getFusedLocationProviderClient(this);
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+            return;
         }
+        client.getLastLocation().addOnSuccessListener(this, new OnSuccessListener<Location>() {
+            @Override
+            public void onSuccess(Location location) {
+                if (location != null) {
+                    TextInputLayout Location;
+                    Location = findViewById(R.id.location);
+                    Location.getEditText().setText("");
+                    // location found
+                    double latitude = location.getLatitude();
+                    double longitude = location.getLongitude();
+                    // update your UI or save the location to a database
+                    try {
+                        Geocoder geocoder = new Geocoder(admin_transport.this, Locale.getDefault());
+                        List<Address> addresses = geocoder.getFromLocation(location.getLatitude(), location.getLongitude(), 1);
+                        String address = addresses.get(0).getAddressLine(0);
+                        Location.getEditText().setText(address);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
 
+                } else {
+                    // location not found, try again or show an error message
+                    Toast.makeText(admin_transport.this, "location not found", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
     }
+
+//    @SuppressLint("MissingPermission")
+//    private void getlocation() {
+//
+//        try {
+////            locationManager = (LocationManager) getApplicationContext().getSystemService(LOCATION_SERVICE);
+////            locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,5000,5,admin_transport.this);
+//            if (locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
+//                locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 5000, 5, locationListener);
+//            } else {
+//                // Prompt the user to enable GPS
+//                Toast.makeText(admin_transport.this, "Enable GPS", Toast.LENGTH_LONG).show();
+//            }
+//
+//        }catch (Exception e){
+//            e.printStackTrace();
+//        }
+//
+//    }
 
 
     public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
@@ -257,37 +274,76 @@ public class admin_transport extends AppCompatActivity implements LocationListen
         }
     }
 
-    @Override
-    public void onLocationChanged(@NonNull Location location) {
-        TextInputLayout Location;
-        Location = findViewById(R.id.location);
-        Location.getEditText().setText("");
-        Toast.makeText(this,""+location.getLatitude()+","+location.getLongitude(),Toast.LENGTH_LONG).show();
+//    LocationListener locationListener = new LocationListener() {
+//        @Override
+//        public void onLocationChanged(@NonNull Location location) {
+//            TextInputLayout Location;
+//            Location = findViewById(R.id.location);
+//            Location.getEditText().setText("");
+//            Toast.makeText(admin_transport.this, "" + location.getLatitude() + "," + location.getLongitude(), Toast.LENGTH_LONG).show();
+//
+//            try {
+//                Geocoder geocoder = new Geocoder(admin_transport.this, Locale.getDefault());
+//                List<Address> addresses = geocoder.getFromLocation(location.getLatitude(), location.getLongitude(), 1);
+//                String address = addresses.get(0).getAddressLine(0);
+//                Location.getEditText().setText(address);
+//            } catch (Exception e) {
+//                e.printStackTrace();
+//            }
+//        }
+//
+//        @Override
+//        public void onStatusChanged(String provider, int status, Bundle extras) {}
+//
+//        @Override
+//        public void onProviderEnabled(@NonNull String provider) {}
+//
+//        @Override
+//        public void onProviderDisabled(@NonNull String provider) {}
+//    };
 
-        try {
-            Geocoder geocoder = new Geocoder(admin_transport.this, Locale.getDefault());
-            List<Address> addresses = geocoder.getFromLocation(location.getLatitude(),location.getLongitude(),1);
-            String address =  addresses.get(0).getAddressLine(0);
-            Location.getEditText().setText(address);
+    //old code
+    // Don't forget to remove the location updates when your activity is destroyed
+//    @Override
+//    protected void onDestroy() {
+//        super.onDestroy();
+//        locationManager.removeUpdates(locationListener);
+//    }
 
 
-        }catch (Exception e){
-            e.printStackTrace();
+
+    // Call this method to start listening for location updates
+    private void startLocationUpdates() {
+        locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+        locationListener = new LocationListener() {
+            @Override
+            public void onLocationChanged(Location location) {
+                // Handle the new location
+                locationManager.removeUpdates(locationListener); // Stop receiving location updates
+            }
+
+            @Override
+            public void onStatusChanged(String provider, int status, Bundle extras) {
+                // Handle location provider status changes
+            }
+
+            @Override
+            public void onProviderEnabled(String provider) {
+                // Handle location provider enabled
+            }
+
+            @Override
+            public void onProviderDisabled(String provider) {
+                // Handle location provider disabled
+            }
+        };
+
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, REQUEST_LOCATION_PERMISSION);
+            return;
         }
+
+        locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
     }
 
-    @Override
-    public void onStatusChanged(String provider, int status, Bundle extras) {
-        LocationListener.super.onStatusChanged(provider, status, extras);
-    }
-
-    @Override
-    public void onProviderEnabled(@NonNull String provider) {
-        LocationListener.super.onProviderEnabled(provider);
-    }
-
-    @Override
-    public void onProviderDisabled(@NonNull String provider) {
-        LocationListener.super.onProviderDisabled(provider);
-    }
 }

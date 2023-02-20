@@ -23,9 +23,6 @@
             android:name=".admin.Statistics"
             android:exported="false" />
         <activity
-            android:name=".paymentsystem"
-            android:exported="false" />
-        <activity
             android:name=".admin.admin_Doctor"
             android:exported="false" />
         <activity

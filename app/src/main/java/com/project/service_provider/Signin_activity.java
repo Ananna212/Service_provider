@@ -68,16 +68,16 @@ public class Signin_activity extends AppCompatActivity {
 
         imgupl = findViewById(R.id.imguploadp);
 
-        //drop down item//-------------------------------------------
-        String[] type1 = new String[]{"Medical ","Trasnport ","Education "};
-        //getting item from drop down---------------------------
-        ArrayAdapter<String> adapter1 = new ArrayAdapter<>(
-                Signin_activity.this,
-                R.layout.drop_down_item,
-                type1
-        );
-        AutoCompleteTextView autoCompleteTextView1= findViewById(R.id.drop1);
-        autoCompleteTextView1.setAdapter(adapter1);
+//        //drop down item//-------------------------------------------
+//        String[] type1 = new String[]{"Medical ","Trasnport ","Education "};
+//        //getting item from drop down---------------------------
+//        ArrayAdapter<String> adapter1 = new ArrayAdapter<>(
+//                Signin_activity.this,
+//                R.layout.drop_down_item,
+//                type1
+//        );
+//        AutoCompleteTextView autoCompleteTextView1= findViewById(R.id.drop1);
+//        autoCompleteTextView1.setAdapter(adapter1);
 
         imgupl.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -101,7 +101,7 @@ public class Signin_activity extends AppCompatActivity {
                 String Pass = pass.getText().toString();
                 String Confirmpass = confirmpass.getText().toString();
                 System.out.println("Output Email " + Email);
-                String category = autoCompleteTextView1.getText().toString();
+//                String category = autoCompleteTextView1.getText().toString();
 
                 if (TextUtils.isEmpty(Username)) {
                     username.setError("Username can't empty");
