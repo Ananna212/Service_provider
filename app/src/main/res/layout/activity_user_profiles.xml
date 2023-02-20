@@ -97,16 +97,7 @@
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     />
-                <TextView
-                    android:layout_marginTop="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Profession : "
-                    android:gravity="center"
-                    android:textSize="24sp"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    />
+
             </LinearLayout>
 
             <LinearLayout
@@ -145,21 +136,14 @@
                     android:textSize="24sp"
                     android:textColor="@color/black"
                     />
-                <TextView
-                    android:layout_marginTop="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:gravity="center"
-                    android:textSize="24sp"
-                    android:textColor="@color/black"
-                    />
+
             </LinearLayout>
 
         </LinearLayout>
 
         <RatingBar
             android:id="@+id/ratingBar"
+            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:rating="5"
@@ -170,11 +154,12 @@
             />
 
         <Button
+            android:id="@+id/editPro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="50dp"
             android:gravity="center"
-            android:text="Edit Profile"
+            android:text="Select Catagory"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="15sp"

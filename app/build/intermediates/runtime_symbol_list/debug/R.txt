@@ -2756,6 +2756,7 @@ int drawable button_style 0x7f07008c
 int drawable card_style 0x7f07008d
 int drawable card_style_ad 0x7f07008e
 int drawable cerclebackground 0x7f07008f
+int drawable checkmark 0x7f070116
 int drawable common_full_open_on_phone 0x7f070090
 int drawable common_google_signin_btn_icon_dark 0x7f070091
 int drawable common_google_signin_btn_icon_dark_focused 0x7f070092
@@ -2787,6 +2788,12 @@ int drawable googleg_standard_color_18 0x7f0700ab
 int drawable header_curve 0x7f0700ac
 int drawable ic_add_location_black_24dp 0x7f0700ad
 int drawable ic_arrow_back_black_24 0x7f0700ae
+int drawable ic_baseline_arrow_back_24 0x7f07010f
+int drawable ic_baseline_exit_to_app_24 0x7f070110
+int drawable ic_baseline_menu_24 0x7f070111
+int drawable ic_baseline_more_vert_24 0x7f070112
+int drawable ic_baseline_person_pin_24 0x7f070113
+int drawable ic_baseline_settings_24 0x7f070114
 int drawable ic_call_black_24dp 0x7f0700af
 int drawable ic_clear_black_24 0x7f0700b0
 int drawable ic_clock_black_24dp 0x7f0700b1
@@ -2861,6 +2868,7 @@ int drawable mtrl_switch_thumb_unchecked_pressed 0x7f0700f5
 int drawable mtrl_switch_track 0x7f0700f6
 int drawable mtrl_switch_track_decoration 0x7f0700f7
 int drawable mtrl_tabs_default_indicator 0x7f0700f8
+int drawable nav_style 0x7f070115
 int drawable navigation_empty_icon 0x7f0700f9
 int drawable notification1 0x7f0700fa
 int drawable notification_action_background 0x7f0700fb
@@ -2972,6 +2980,7 @@ int id aligned 0x7f080055
 int id all 0x7f080056
 int id allStates 0x7f080057
 int id always 0x7f080058
+int id ammount 0x7f08025e
 int id animateToEnd 0x7f080059
 int id animateToStart 0x7f08005a
 int id antiClockwise 0x7f08005b
@@ -2988,6 +2997,7 @@ int id baseline 0x7f080065
 int id beginOnFirstDraw 0x7f080066
 int id beginning 0x7f080067
 int id bestChoice 0x7f080068
+int id bikashnumbr 0x7f08025f
 int id blocking 0x7f080069
 int id bottom 0x7f08006a
 int id bounce 0x7f08006b
@@ -3072,6 +3082,7 @@ int id doctor_email 0x7f0800b9
 int id doctor_name 0x7f0800ba
 int id doctor_phone 0x7f0800bb
 int id doctor_specialite 0x7f0800bc
+int id done 0x7f080260
 int id dragAnticlockwise 0x7f0800bd
 int id dragClockwise 0x7f0800be
 int id dragDown 0x7f0800bf
@@ -3081,12 +3092,12 @@ int id dragRight 0x7f0800c2
 int id dragStart 0x7f0800c3
 int id dragUp 0x7f0800c4
 int id driverName 0x7f0800c5
-int id drop1 0x7f08025a
 int id dropdown_menu 0x7f0800c6
 int id easeIn 0x7f0800c7
 int id easeInOut 0x7f0800c8
 int id easeOut 0x7f0800c9
 int id east 0x7f0800ca
+int id editPro 0x7f08025b
 int id edit_query 0x7f0800cb
 int id education 0x7f0800cc
 int id elastic 0x7f0800cd
@@ -3097,6 +3108,7 @@ int id endToStart 0x7f0800d1
 int id end_padder 0x7f0800d2
 int id enterAlways 0x7f0800d3
 int id enterAlwaysCollapsed 0x7f0800d4
+int id exit 0x7f08025c
 int id exitUntilCollapsed 0x7f0800d5
 int id expand_activities_button 0x7f0800d6
 int id expanded_menu 0x7f0800d7
@@ -3112,6 +3124,7 @@ int id fill 0x7f0800e0
 int id fill_horizontal 0x7f0800e1
 int id fill_vertical 0x7f0800e2
 int id filled 0x7f0800e3
+int id firstpase 0x7f080261
 int id fitCenter 0x7f0800e4
 int id fitEnd 0x7f0800e5
 int id fitStart 0x7f0800e6
@@ -3268,6 +3281,7 @@ int id notification_main_column_container 0x7f08017c
 int id off 0x7f08017d
 int id on 0x7f08017e
 int id onInterceptTouchReturnSwipe 0x7f08017f
+int id otp 0x7f080262
 int id outline 0x7f080180
 int id outward 0x7f080181
 int id overshoot 0x7f080182
@@ -3282,6 +3296,7 @@ int id password_toggle 0x7f08018a
 int id passwords 0x7f08018b
 int id path 0x7f08018c
 int id pathRelative 0x7f08018d
+int id paymentB 0x7f080265
 int id peekHeight 0x7f08018e
 int id percent 0x7f08018f
 int id pieChart 0x7f080259
@@ -3310,6 +3325,7 @@ int id save_non_transition_alpha 0x7f0801a5
 int id save_overlay_view 0x7f0801a6
 int id sawtooth 0x7f0801a7
 int id scale 0x7f0801a8
+int id scndpase 0x7f080263
 int id screen 0x7f0801a9
 int id scroll 0x7f0801aa
 int id scrollIndicatorDown 0x7f0801ab
@@ -3344,6 +3360,7 @@ int id search_voice_btn 0x7f0801c7
 int id select_dialog_listview 0x7f0801c8
 int id selected 0x7f0801c9
 int id selection_type 0x7f0801ca
+int id setting 0x7f08025d
 int id sharedValueSet 0x7f0801cb
 int id sharedValueUnset 0x7f0801cc
 int id shortcut 0x7f0801cd
@@ -3437,6 +3454,7 @@ int id tfetchMobile 0x7f080224
 int id tfetchName 0x7f080225
 int id tfetchimag 0x7f080226
 int id tfetshVnumber 0x7f080227
+int id thridpase 0x7f080264
 int id timagep 0x7f080228
 int id time 0x7f080229
 int id title 0x7f08022a
@@ -3700,6 +3718,7 @@ int layout select_dialog_singlechoice_material 0x7f0b0082
 int layout singlerow 0x7f0b0083
 int layout support_simple_spinner_dropdown_item 0x7f0b0084
 int layout transportsinglerow 0x7f0b0085
+int menu menu_item 0x7f140000
 int mipmap ic_launcher 0x7f0d0000
 int mipmap ic_launcher_foreground 0x7f0d0001
 int mipmap ic_launcher_round 0x7f0d0002

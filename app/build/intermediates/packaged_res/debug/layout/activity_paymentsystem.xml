@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="350dp"
     android:layout_height="600dp"
-    android:background="#22BE87"
+    android:background="#90EF0000"
     android:orientation="vertical"
     android:layout_gravity="center"
     android:padding="5dp"
-    tools:context=".paymentsystem">
+ >
+<!--    tools:context=".paymentsystem"-->
 
     <TextView
         android:layout_marginTop="5dp"
@@ -27,22 +28,73 @@
         android:layout_marginTop="70dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Payment System"
+        android:text="Bkash Payment"
         android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="30dp"
         android:layout_gravity="center"/>
+
+<!--    fist step-->
     <LinearLayout
+        android:id="@+id/firstpase"
+        android:visibility="visible"
         android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center">
 
         <EditText
+            android:id="@+id/bikashnumbr"
             android:layout_width="match_parent"
             android:padding="10dp"
-            android:hint="enter you number"
+            android:hint="Enter your Bkash number"
+            android:layout_height="50dp"
+            android:background="@drawable/card_style"
+            />
+        <EditText
+            android:id="@+id/ammount"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:hint="Enter Amount"
+            android:layout_height="50dp"
+            android:background="@drawable/card_style"
+            />
+        <Button
+            android:id="@+id/paymentB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#A8F5D7"
+            android:text="Payment"
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+
+
+<!--    Secend Step-->
+
+    <LinearLayout
+        android:id="@+id/scndpase"
+        android:visibility="gone"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/otp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:hint="Enter OTP"
             android:layout_height="50dp"
             android:background="@drawable/card_style"
             />
@@ -50,7 +102,7 @@
             android:id="@+id/trsubmitBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="20dp"
             android:backgroundTint="#A8F5D7"
             android:text="Submit"
             android:textColor="@color/black"
@@ -58,6 +110,45 @@
             >
 
         </Button>
+
+
+    </LinearLayout>
+
+<!--     Thrid Step-->
+
+
+    <LinearLayout
+        android:id="@+id/thridpase"
+        android:visibility="gone"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+     <ImageView
+         android:layout_width="200dp"
+         android:layout_height="200dp"
+         android:src="@drawable/checkmark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Successfull"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#A8F5D7"
+            android:text="Done"
+            android:textColor="@color/black"/>
 
 
     </LinearLayout>

@@ -2757,6 +2757,7 @@ drawable button_style
 drawable card_style
 drawable card_style_ad
 drawable cerclebackground
+drawable checkmark
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -2788,6 +2789,12 @@ drawable googleg_standard_color_18
 drawable header_curve
 drawable ic_add_location_black_24dp
 drawable ic_arrow_back_black_24
+drawable ic_baseline_arrow_back_24
+drawable ic_baseline_exit_to_app_24
+drawable ic_baseline_menu_24
+drawable ic_baseline_more_vert_24
+drawable ic_baseline_person_pin_24
+drawable ic_baseline_settings_24
 drawable ic_call_black_24dp
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
@@ -2862,6 +2869,7 @@ drawable mtrl_switch_thumb_unchecked_pressed
 drawable mtrl_switch_track
 drawable mtrl_switch_track_decoration
 drawable mtrl_tabs_default_indicator
+drawable nav_style
 drawable navigation_empty_icon
 drawable notification1
 drawable notification_action_background
@@ -2973,6 +2981,7 @@ id aligned
 id all
 id allStates
 id always
+id ammount
 id animateToEnd
 id animateToStart
 id antiClockwise
@@ -2989,6 +2998,7 @@ id baseline
 id beginOnFirstDraw
 id beginning
 id bestChoice
+id bikashnumbr
 id blocking
 id bottom
 id bounce
@@ -3073,6 +3083,7 @@ id doctor_email
 id doctor_name
 id doctor_phone
 id doctor_specialite
+id done
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3082,12 +3093,12 @@ id dragRight
 id dragStart
 id dragUp
 id driverName
-id drop1
 id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
 id east
+id editPro
 id edit_query
 id education
 id elastic
@@ -3098,6 +3109,7 @@ id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id exit
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3113,6 +3125,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id firstpase
 id fitCenter
 id fitEnd
 id fitStart
@@ -3269,6 +3282,7 @@ id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
+id otp
 id outline
 id outward
 id overshoot
@@ -3283,6 +3297,7 @@ id password_toggle
 id passwords
 id path
 id pathRelative
+id paymentB
 id peekHeight
 id percent
 id pieChart
@@ -3311,6 +3326,7 @@ id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
 id scale
+id scndpase
 id screen
 id scroll
 id scrollIndicatorDown
@@ -3345,6 +3361,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id setting
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3438,6 +3455,7 @@ id tfetchMobile
 id tfetchName
 id tfetchimag
 id tfetshVnumber
+id thridpase
 id timagep
 id time
 id title
@@ -3701,6 +3719,7 @@ layout select_dialog_singlechoice_material
 layout singlerow
 layout support_simple_spinner_dropdown_item
 layout transportsinglerow
+menu menu_item
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round

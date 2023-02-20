@@ -8,6 +8,7 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -19,12 +20,15 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.auth.User;
+import com.project.service_provider.admin.admin_home;
 
 public class User_profiles extends AppCompatActivity {
 
     TextView Uname,Uadress,Umail;
 
     ImageView prPic;
+    Button editpof;
 
 
     @Override
@@ -36,8 +40,16 @@ public class User_profiles extends AppCompatActivity {
         Uadress = findViewById(R.id.uaddress);
         Umail  = findViewById(R.id.umail);
         prPic = findViewById(R.id.imguploadpd);
+        editpof = findViewById(R.id.editPro);
 
-
+        editpof.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(User_profiles.this, admin_home.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 
         FirebaseFirestore dbroot = FirebaseFirestore.getInstance();
         String currentuser = FirebaseAuth.getInstance().getCurrentUser().getUid();

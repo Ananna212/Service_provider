@@ -7,7 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 
+import com.project.service_provider.MainActivity;
 import com.project.service_provider.R;
+import com.project.service_provider.User_profiles;
+import com.project.service_provider.detailsInfo;
 
 public class admin_home extends AppCompatActivity {
     LinearLayout Ed,tr,md,st;
@@ -54,5 +57,14 @@ public class admin_home extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+
+    }
+    public void onBackPressed() {
+        Intent intent = new Intent(admin_home.this, User_profiles.class);
+        intent.putExtra("key","Teacher");
+        startActivity(intent);
+        finish();
     }
 }

@@ -13,19 +13,23 @@ import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.project.service_provider.Activity_doctor_profile;
 import com.project.service_provider.MainActivity;
 import com.project.service_provider.R;
-import com.project.service_provider.detailsInfo;
-import com.project.service_provider.paymentsystem;
 
 public class TransportDetailsInfo extends AppCompatActivity {
 
+    LinearLayout firstL, scndL,thridL;
+    EditText fnumber,fammount,sotp;
+    Button paymentBKASH,Otp,done;
+    //dialog
     private static final int REQUEST_CALL = 1;
     TextView Name,vnumber,adress,drivincLicence,number,txtclose;
     ImageView img,call,location,payment;
@@ -71,6 +75,46 @@ public class TransportDetailsInfo extends AppCompatActivity {
                         myDialog.dismiss();
                     }
                 });
+                // new code
+
+                firstL =(LinearLayout) myDialog.findViewById(R.id.firstpase);
+                scndL = (LinearLayout) myDialog.findViewById(R.id.scndpase);
+                thridL =  (LinearLayout)myDialog.findViewById(R.id.thridpase);
+
+                fnumber = (EditText) myDialog.findViewById(R.id.bikashnumbr);
+                fammount =  (EditText) myDialog.findViewById(R.id.ammount);
+                sotp =  (EditText) myDialog.findViewById(R.id.otp);
+
+                paymentBKASH = (Button) myDialog.findViewById(R.id.paymentB);
+                Otp = (Button) myDialog.findViewById(R.id.trsubmitBtn);
+                done =  (Button) myDialog.findViewById(R.id.done);
+
+                paymentBKASH.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        firstL.setVisibility(View.GONE);
+                        scndL.setVisibility(View.VISIBLE);
+                    }
+                });
+
+                Otp.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        scndL.setVisibility(View.GONE);
+                        thridL.setVisibility(View.VISIBLE);
+                    }
+                });
+
+
+                done.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        myDialog.dismiss();
+                    }
+                });
+
+
+                //new code end
                 myDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                 myDialog.show();
             }
