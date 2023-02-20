@@ -29,9 +29,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Bkash Payment"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textStyle="bold"
-        android:textSize="30dp"
+        android:textSize="35dp"
         android:layout_gravity="center"/>
 
 <!--    fist step-->
