@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="350dp"
     android:layout_height="600dp"
-    android:background="#90EF0000"
+    android:background="#FD0056"
     android:orientation="vertical"
     android:layout_gravity="center"
     android:padding="5dp"
  >
-<!--    tools:context=".paymentsystem"-->
+
 
     <TextView
         android:layout_marginTop="5dp"
@@ -42,35 +42,70 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:orientation="vertical"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center">
 
-        <EditText
-            android:id="@+id/bikashnumbr"
+        <LinearLayout
+            android:background="@color/white"
             android:layout_width="match_parent"
-            android:padding="10dp"
-            android:hint="Enter your Bkash number"
-            android:layout_height="50dp"
-            android:background="@drawable/card_style"
-            />
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextCountryCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:text="+880"
+                android:textColor="@color/grey_80" />
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="0dp" />
+
+            <EditText
+                android:id="@+id/editTextPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:textColor="@color/grey_90">
+                <requestFocus />
+            </EditText>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal">
         <EditText
             android:id="@+id/ammount"
-            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
-            android:padding="10dp"
-            android:hint="Enter Amount"
-            android:layout_height="50dp"
-            android:background="@drawable/card_style"
-            />
-        <Button
-            android:id="@+id/paymentB"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:backgroundTint="#A8F5D7"
-            android:text="Payment"
-            android:textColor="@color/black"/>
+            android:hint="Enter your amount"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:textColor="@color/grey_90">
+            <requestFocus />
+        </EditText>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/buttonContinue"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_rounded_red"
+            android:text="CONTINUE"
+            android:textColor="@android:color/primary_text_dark" />
 
 
     </LinearLayout>
@@ -89,27 +124,66 @@
         android:layout_height="wrap_content"
         android:gravity="center">
 
-        <EditText
-            android:id="@+id/otp"
-            android:layout_marginTop="20dp"
-            android:layout_width="match_parent"
-            android:padding="10dp"
-            android:hint="Enter OTP"
-            android:layout_height="50dp"
-            android:background="@drawable/card_style"
-            />
-        <Button
-            android:id="@+id/trsubmitBtn"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:backgroundTint="#A8F5D7"
-            android:text="Submit"
-            android:textColor="@color/black"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
 
-            >
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/img_code_verification" />
 
-        </Button>
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="OTP has been sent to you on your mobile phone. Please enter it below"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="Code"
+                    android:inputType="phone"
+                    android:textColor="@color/grey_90">
+                    <requestFocus />
+                </EditText>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonVerify"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="VERIFY"
+                android:textColor="@color/teal_200"/>
+
+            <ProgressBar
+                android:id="@+id/progressbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/buttonVerify"
+                android:layout_centerHorizontal="true"
+                android:visibility="gone" />
+
+        </LinearLayout>
 
 
     </LinearLayout>
@@ -141,14 +215,16 @@
             android:textColor="@color/black"
             android:textStyle="bold"/>
 
+
         <Button
             android:id="@+id/done"
+            style="@style/Widget.AppCompat.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:backgroundTint="#A8F5D7"
+            android:gravity="center"
             android:text="Done"
-            android:textColor="@color/black"/>
+            android:textStyle="bold"
+            android:textColor="@color/black" />
 
 
     </LinearLayout>

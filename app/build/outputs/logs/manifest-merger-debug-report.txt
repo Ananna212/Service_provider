@@ -18,13 +18,13 @@ MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/shrabon/.gradle/caches/tr
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/shrabon/.gradle/caches/transforms-3/10365807c1c8f45148264253579d507f/transformed/glide-4.14.2/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/shrabon/.gradle/caches/transforms-3/42535c0c68c8160367e0bec84d4a078f/transformed/play-services-location-21.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /home/shrabon/.gradle/caches/transforms-3/c42e4831d204d1a4c58dac5da254002a/transformed/MPAndroidChart-v3.1.0/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.firebase:firebase-database:20.1.0] /home/shrabon/.gradle/caches/transforms-3/c8e0e2ce04b6cb3bfec0e4d5fc8e7217/transformed/firebase-database-20.1.0/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/shrabon/.gradle/caches/transforms-3/f31b4bcd86ef2ace45fd1e9793d35774/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /home/shrabon/.gradle/caches/transforms-3/9bc52b05d2ca5dd5ebc59e42434f871a/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/shrabon/.gradle/caches/transforms-3/8f8fa0f48ff167a78337289afcb19dfb/transformed/firebase-common-20.3.0/AndroidManifest.xml:15:1-39:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/shrabon/.gradle/caches/transforms-3/ac62a7d29f196a7e41b6bd0fb762bdfd/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/shrabon/.gradle/caches/transforms-3/8611244ce4ccad774bd34396c7340aa4/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/shrabon/.gradle/caches/transforms-3/7d5e9996a21af434d50576c4445799c8/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-database:20.0.0] /home/shrabon/.gradle/caches/transforms-3/70891dc0c67e1ae009b81ea2f1ccf0ce/transformed/firebase-database-20.0.0/AndroidManifest.xml:15:1-38:12
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/shrabon/.gradle/caches/transforms-3/f31b4bcd86ef2ace45fd1e9793d35774/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /home/shrabon/.gradle/caches/transforms-3/9bc52b05d2ca5dd5ebc59e42434f871a/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml:15:1-25:12
-MERGED from [com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/shrabon/.gradle/caches/transforms-3/039a13a72526bfa21d8ed3b401456090/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/shrabon/.gradle/caches/transforms-3/6d61f86309566abcbffb8fa4b53344c3/transformed/play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/shrabon/.gradle/caches/transforms-3/8dfb2123e618254fcf2606631c7019e1/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
@@ -62,7 +62,6 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/shrabon/.gradle/c
 MERGED from [androidx.savedstate:savedstate:1.2.0] /home/shrabon/.gradle/caches/transforms-3/e08d9e87595a7ca0b1c0a5a2fd398e43/transformed/savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] /home/shrabon/.gradle/caches/transforms-3/e2d354b390c6999304a57f55d990a51e/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/shrabon/.gradle/caches/transforms-3/8fdef126ca49b7f91b2c1df1de5eb4a6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-components:17.0.1] /home/shrabon/.gradle/caches/transforms-3/8751377144c34deb156a2b7d8968a8d6/transformed/firebase-components-17.0.1/AndroidManifest.xml:15:1-23:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /home/shrabon/.gradle/caches/transforms-3/a25ae64b7420622458d258404315fe17/transformed/gifdecoder-4.14.2/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.3] /home/shrabon/.gradle/caches/transforms-3/873f27d051eb27c4283ffbe8f1a37d3e/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/shrabon/.gradle/caches/transforms-3/69d2f1941f52aa8ccf968d211133293c/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
@@ -73,6 +72,7 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/shrabon/.gradle/
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/shrabon/.gradle/caches/transforms-3/4c6834ce7f69670422084e1a040b110a/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/shrabon/.gradle/caches/transforms-3/d8f5761bdfd7d662ea945d4e083fce32/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/shrabon/.gradle/caches/transforms-3/a9d62a2c530cf3a96320749e40df01ef/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] /home/shrabon/.gradle/caches/transforms-3/23cf50d6258de978fd23e432c7b3b4fd/transformed/firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/shrabon/.gradle/caches/transforms-3/f19e3061386dd1b6acf05d329543059f/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/shrabon/.gradle/caches/transforms-3/71aa3ac72c68eaf97329acd0bfdbbf82/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/shrabon/.gradle/caches/transforms-3/26b221667aa2355a15cbff507ddbbb77/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
@@ -109,8 +109,8 @@ MERGED from [com.google.firebase:firebase-firestore:24.4.3] /home/shrabon/.gradl
 MERGED from [com.google.firebase:firebase-firestore:24.4.3] /home/shrabon/.gradle/caches/transforms-3/d80ad32f2ab165ab7c9fb80e45a6b49a/transformed/firebase-firestore-24.4.3/AndroidManifest.xml:13:5-67
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /home/shrabon/.gradle/caches/transforms-3/806ad99a62e5870765fd630b695ff25e/transformed/firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /home/shrabon/.gradle/caches/transforms-3/806ad99a62e5870765fd630b695ff25e/transformed/firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
-MERGED from [com.google.firebase:firebase-database:20.0.0] /home/shrabon/.gradle/caches/transforms-3/70891dc0c67e1ae009b81ea2f1ccf0ce/transformed/firebase-database-20.0.0/AndroidManifest.xml:26:5-67
-MERGED from [com.google.firebase:firebase-database:20.0.0] /home/shrabon/.gradle/caches/transforms-3/70891dc0c67e1ae009b81ea2f1ccf0ce/transformed/firebase-database-20.0.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.1.0] /home/shrabon/.gradle/caches/transforms-3/c8e0e2ce04b6cb3bfec0e4d5fc8e7217/transformed/firebase-database-20.1.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-database:20.1.0] /home/shrabon/.gradle/caches/transforms-3/c8e0e2ce04b6cb3bfec0e4d5fc8e7217/transformed/firebase-database-20.1.0/AndroidManifest.xml:25:5-67
 	android:name
 		ADDED from /home/shrabon/Service_Provider-20230207T151407Z-001/Service_Provider/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_WIFI_STATE
@@ -157,16 +157,16 @@ MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/shrabon/.gradle/cache
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/shrabon/.gradle/caches/transforms-3/10365807c1c8f45148264253579d507f/transformed/glide-4.14.2/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/shrabon/.gradle/caches/transforms-3/42535c0c68c8160367e0bec84d4a078f/transformed/play-services-location-21.0.1/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/shrabon/.gradle/caches/transforms-3/42535c0c68c8160367e0bec84d4a078f/transformed/play-services-location-21.0.1/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/shrabon/.gradle/caches/transforms-3/7d5e9996a21af434d50576c4445799c8/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/shrabon/.gradle/caches/transforms-3/7d5e9996a21af434d50576c4445799c8/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-database:20.0.0] /home/shrabon/.gradle/caches/transforms-3/70891dc0c67e1ae009b81ea2f1ccf0ce/transformed/firebase-database-20.0.0/AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.firebase:firebase-database:20.0.0] /home/shrabon/.gradle/caches/transforms-3/70891dc0c67e1ae009b81ea2f1ccf0ce/transformed/firebase-database-20.0.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.1.0] /home/shrabon/.gradle/caches/transforms-3/c8e0e2ce04b6cb3bfec0e4d5fc8e7217/transformed/firebase-database-20.1.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-database:20.1.0] /home/shrabon/.gradle/caches/transforms-3/c8e0e2ce04b6cb3bfec0e4d5fc8e7217/transformed/firebase-database-20.1.0/AndroidManifest.xml:27:5-35:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/shrabon/.gradle/caches/transforms-3/f31b4bcd86ef2ace45fd1e9793d35774/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/shrabon/.gradle/caches/transforms-3/f31b4bcd86ef2ace45fd1e9793d35774/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /home/shrabon/.gradle/caches/transforms-3/9bc52b05d2ca5dd5ebc59e42434f871a/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /home/shrabon/.gradle/caches/transforms-3/9bc52b05d2ca5dd5ebc59e42434f871a/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
-MERGED from [com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:24:5-37:19
-MERGED from [com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/shrabon/.gradle/caches/transforms-3/8f8fa0f48ff167a78337289afcb19dfb/transformed/firebase-common-20.3.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/shrabon/.gradle/caches/transforms-3/8f8fa0f48ff167a78337289afcb19dfb/transformed/firebase-common-20.3.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/shrabon/.gradle/caches/transforms-3/7d5e9996a21af434d50576c4445799c8/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/shrabon/.gradle/caches/transforms-3/7d5e9996a21af434d50576c4445799c8/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/shrabon/.gradle/caches/transforms-3/6d61f86309566abcbffb8fa4b53344c3/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/shrabon/.gradle/caches/transforms-3/6d61f86309566abcbffb8fa4b53344c3/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/shrabon/.gradle/caches/transforms-3/8dfb2123e618254fcf2606631c7019e1/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
@@ -335,20 +335,20 @@ MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/shrabon
 MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/shrabon/.gradle/caches/transforms-3/42535c0c68c8160367e0bec84d4a078f/transformed/play-services-location-21.0.1/AndroidManifest.xml:5:5-44
 MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /home/shrabon/.gradle/caches/transforms-3/c42e4831d204d1a4c58dac5da254002a/transformed/MPAndroidChart-v3.1.0/AndroidManifest.xml:16:5-18:41
 MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /home/shrabon/.gradle/caches/transforms-3/c42e4831d204d1a4c58dac5da254002a/transformed/MPAndroidChart-v3.1.0/AndroidManifest.xml:16:5-18:41
+MERGED from [com.google.firebase:firebase-database:20.1.0] /home/shrabon/.gradle/caches/transforms-3/c8e0e2ce04b6cb3bfec0e4d5fc8e7217/transformed/firebase-database-20.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:20.1.0] /home/shrabon/.gradle/caches/transforms-3/c8e0e2ce04b6cb3bfec0e4d5fc8e7217/transformed/firebase-database-20.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/shrabon/.gradle/caches/transforms-3/f31b4bcd86ef2ace45fd1e9793d35774/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/shrabon/.gradle/caches/transforms-3/f31b4bcd86ef2ace45fd1e9793d35774/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /home/shrabon/.gradle/caches/transforms-3/9bc52b05d2ca5dd5ebc59e42434f871a/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /home/shrabon/.gradle/caches/transforms-3/9bc52b05d2ca5dd5ebc59e42434f871a/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/shrabon/.gradle/caches/transforms-3/8f8fa0f48ff167a78337289afcb19dfb/transformed/firebase-common-20.3.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/shrabon/.gradle/caches/transforms-3/8f8fa0f48ff167a78337289afcb19dfb/transformed/firebase-common-20.3.0/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/shrabon/.gradle/caches/transforms-3/ac62a7d29f196a7e41b6bd0fb762bdfd/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/shrabon/.gradle/caches/transforms-3/ac62a7d29f196a7e41b6bd0fb762bdfd/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/shrabon/.gradle/caches/transforms-3/8611244ce4ccad774bd34396c7340aa4/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/shrabon/.gradle/caches/transforms-3/8611244ce4ccad774bd34396c7340aa4/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/shrabon/.gradle/caches/transforms-3/7d5e9996a21af434d50576c4445799c8/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/shrabon/.gradle/caches/transforms-3/7d5e9996a21af434d50576c4445799c8/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-database:20.0.0] /home/shrabon/.gradle/caches/transforms-3/70891dc0c67e1ae009b81ea2f1ccf0ce/transformed/firebase-database-20.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-database:20.0.0] /home/shrabon/.gradle/caches/transforms-3/70891dc0c67e1ae009b81ea2f1ccf0ce/transformed/firebase-database-20.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/shrabon/.gradle/caches/transforms-3/f31b4bcd86ef2ace45fd1e9793d35774/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/shrabon/.gradle/caches/transforms-3/f31b4bcd86ef2ace45fd1e9793d35774/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /home/shrabon/.gradle/caches/transforms-3/9bc52b05d2ca5dd5ebc59e42434f871a/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /home/shrabon/.gradle/caches/transforms-3/9bc52b05d2ca5dd5ebc59e42434f871a/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/shrabon/.gradle/caches/transforms-3/039a13a72526bfa21d8ed3b401456090/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/shrabon/.gradle/caches/transforms-3/039a13a72526bfa21d8ed3b401456090/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/shrabon/.gradle/caches/transforms-3/6d61f86309566abcbffb8fa4b53344c3/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
@@ -423,8 +423,6 @@ MERGED from [androidx.cardview:cardview:1.0.0] /home/shrabon/.gradle/caches/tran
 MERGED from [androidx.cardview:cardview:1.0.0] /home/shrabon/.gradle/caches/transforms-3/e2d354b390c6999304a57f55d990a51e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/shrabon/.gradle/caches/transforms-3/8fdef126ca49b7f91b2c1df1de5eb4a6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/shrabon/.gradle/caches/transforms-3/8fdef126ca49b7f91b2c1df1de5eb4a6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-components:17.0.1] /home/shrabon/.gradle/caches/transforms-3/8751377144c34deb156a2b7d8968a8d6/transformed/firebase-components-17.0.1/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-components:17.0.1] /home/shrabon/.gradle/caches/transforms-3/8751377144c34deb156a2b7d8968a8d6/transformed/firebase-components-17.0.1/AndroidManifest.xml:19:5-21:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /home/shrabon/.gradle/caches/transforms-3/a25ae64b7420622458d258404315fe17/transformed/gifdecoder-4.14.2/AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /home/shrabon/.gradle/caches/transforms-3/a25ae64b7420622458d258404315fe17/transformed/gifdecoder-4.14.2/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.3] /home/shrabon/.gradle/caches/transforms-3/873f27d051eb27c4283ffbe8f1a37d3e/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
@@ -445,6 +443,8 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/shrabon/.gradle/caches
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/shrabon/.gradle/caches/transforms-3/d8f5761bdfd7d662ea945d4e083fce32/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/shrabon/.gradle/caches/transforms-3/a9d62a2c530cf3a96320749e40df01ef/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/shrabon/.gradle/caches/transforms-3/a9d62a2c530cf3a96320749e40df01ef/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.0] /home/shrabon/.gradle/caches/transforms-3/23cf50d6258de978fd23e432c7b3b4fd/transformed/firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /home/shrabon/.gradle/caches/transforms-3/23cf50d6258de978fd23e432c7b3b4fd/transformed/firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/shrabon/.gradle/caches/transforms-3/f19e3061386dd1b6acf05d329543059f/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/shrabon/.gradle/caches/transforms-3/f19e3061386dd1b6acf05d329543059f/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /home/shrabon/.gradle/caches/transforms-3/71aa3ac72c68eaf97329acd0bfdbbf82/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
@@ -477,8 +477,8 @@ MERGED from [com.google.firebase:firebase-firestore:24.4.3] /home/shrabon/.gradl
 MERGED from [com.google.firebase:firebase-firestore:24.4.3] /home/shrabon/.gradle/caches/transforms-3/d80ad32f2ab165ab7c9fb80e45a6b49a/transformed/firebase-firestore-24.4.3/AndroidManifest.xml:12:5-79
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /home/shrabon/.gradle/caches/transforms-3/806ad99a62e5870765fd630b695ff25e/transformed/firebase-storage-20.1.0/AndroidManifest.xml:25:5-79
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /home/shrabon/.gradle/caches/transforms-3/806ad99a62e5870765fd630b695ff25e/transformed/firebase-storage-20.1.0/AndroidManifest.xml:25:5-79
-MERGED from [com.google.firebase:firebase-database:20.0.0] /home/shrabon/.gradle/caches/transforms-3/70891dc0c67e1ae009b81ea2f1ccf0ce/transformed/firebase-database-20.0.0/AndroidManifest.xml:25:5-79
-MERGED from [com.google.firebase:firebase-database:20.0.0] /home/shrabon/.gradle/caches/transforms-3/70891dc0c67e1ae009b81ea2f1ccf0ce/transformed/firebase-database-20.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:20.1.0] /home/shrabon/.gradle/caches/transforms-3/c8e0e2ce04b6cb3bfec0e4d5fc8e7217/transformed/firebase-database-20.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-database:20.1.0] /home/shrabon/.gradle/caches/transforms-3/c8e0e2ce04b6cb3bfec0e4d5fc8e7217/transformed/firebase-database-20.1.0/AndroidManifest.xml:24:5-79
 MERGED from [io.grpc:grpc-android:1.50.2] /home/shrabon/.gradle/caches/transforms-3/4f3b8ca20d322959d57ea7503401e33e/transformed/grpc-android-1.50.2/AndroidManifest.xml:9:5-79
 MERGED from [io.grpc:grpc-android:1.50.2] /home/shrabon/.gradle/caches/transforms-3/4f3b8ca20d322959d57ea7503401e33e/transformed/grpc-android-1.50.2/AndroidManifest.xml:9:5-79
 	android:name
@@ -537,16 +537,16 @@ MERGED from [com.google.firebase:firebase-firestore:24.4.3] /home/shrabon/.gradl
 MERGED from [com.google.firebase:firebase-firestore:24.4.3] /home/shrabon/.gradle/caches/transforms-3/d80ad32f2ab165ab7c9fb80e45a6b49a/transformed/firebase-firestore-24.4.3/AndroidManifest.xml:16:9-22:19
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /home/shrabon/.gradle/caches/transforms-3/806ad99a62e5870765fd630b695ff25e/transformed/firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /home/shrabon/.gradle/caches/transforms-3/806ad99a62e5870765fd630b695ff25e/transformed/firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-database:20.0.0] /home/shrabon/.gradle/caches/transforms-3/70891dc0c67e1ae009b81ea2f1ccf0ce/transformed/firebase-database-20.0.0/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-database:20.0.0] /home/shrabon/.gradle/caches/transforms-3/70891dc0c67e1ae009b81ea2f1ccf0ce/transformed/firebase-database-20.0.0/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:32:9-36:35
-MERGED from [com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-database:20.1.0] /home/shrabon/.gradle/caches/transforms-3/c8e0e2ce04b6cb3bfec0e4d5fc8e7217/transformed/firebase-database-20.1.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-database:20.1.0] /home/shrabon/.gradle/caches/transforms-3/c8e0e2ce04b6cb3bfec0e4d5fc8e7217/transformed/firebase-database-20.1.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/shrabon/.gradle/caches/transforms-3/8f8fa0f48ff167a78337289afcb19dfb/transformed/firebase-common-20.3.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/shrabon/.gradle/caches/transforms-3/8f8fa0f48ff167a78337289afcb19dfb/transformed/firebase-common-20.3.0/AndroidManifest.xml:32:9-36:35
 	android:exported
 		ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:66:13-37
 	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:36:13-32
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/shrabon/.gradle/caches/transforms-3/8f8fa0f48ff167a78337289afcb19dfb/transformed/firebase-common-20.3.0/AndroidManifest.xml:36:13-32
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/shrabon/.gradle/caches/transforms-3/8f8fa0f48ff167a78337289afcb19dfb/transformed/firebase-common-20.3.0/AndroidManifest.xml:34:13-43
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/shrabon/.gradle/caches/transforms-3/7e1e28dc238ab81a87ffc5401f4faa2e/transformed/firebase-auth-21.1.0/AndroidManifest.xml:65:13-84
 meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
@@ -568,23 +568,23 @@ ADDED from [com.google.firebase:firebase-storage:20.1.0] /home/shrabon/.gradle/c
 	android:name
 		ADDED from [com.google.firebase:firebase-storage:20.1.0] /home/shrabon/.gradle/caches/transforms-3/806ad99a62e5870765fd630b695ff25e/transformed/firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
 meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
-ADDED from [com.google.firebase:firebase-database:20.0.0] /home/shrabon/.gradle/caches/transforms-3/70891dc0c67e1ae009b81ea2f1ccf0ce/transformed/firebase-database-20.0.0/AndroidManifest.xml:32:13-34:85
+ADDED from [com.google.firebase:firebase-database:20.1.0] /home/shrabon/.gradle/caches/transforms-3/c8e0e2ce04b6cb3bfec0e4d5fc8e7217/transformed/firebase-database-20.1.0/AndroidManifest.xml:31:13-33:85
 	android:value
-		ADDED from [com.google.firebase:firebase-database:20.0.0] /home/shrabon/.gradle/caches/transforms-3/70891dc0c67e1ae009b81ea2f1ccf0ce/transformed/firebase-database-20.0.0/AndroidManifest.xml:34:17-82
+		ADDED from [com.google.firebase:firebase-database:20.1.0] /home/shrabon/.gradle/caches/transforms-3/c8e0e2ce04b6cb3bfec0e4d5fc8e7217/transformed/firebase-database-20.1.0/AndroidManifest.xml:33:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-database:20.0.0] /home/shrabon/.gradle/caches/transforms-3/70891dc0c67e1ae009b81ea2f1ccf0ce/transformed/firebase-database-20.0.0/AndroidManifest.xml:33:17-109
+		ADDED from [com.google.firebase:firebase-database:20.1.0] /home/shrabon/.gradle/caches/transforms-3/c8e0e2ce04b6cb3bfec0e4d5fc8e7217/transformed/firebase-database-20.1.0/AndroidManifest.xml:32:17-109
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+ADDED from [com.google.firebase:firebase-common:20.3.0] /home/shrabon/.gradle/caches/transforms-3/8f8fa0f48ff167a78337289afcb19dfb/transformed/firebase-common-20.3.0/AndroidManifest.xml:25:9-30:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/shrabon/.gradle/caches/transforms-3/8f8fa0f48ff167a78337289afcb19dfb/transformed/firebase-common-20.3.0/AndroidManifest.xml:27:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/shrabon/.gradle/caches/transforms-3/8f8fa0f48ff167a78337289afcb19dfb/transformed/firebase-common-20.3.0/AndroidManifest.xml:29:13-37
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/shrabon/.gradle/caches/transforms-3/8f8fa0f48ff167a78337289afcb19dfb/transformed/firebase-common-20.3.0/AndroidManifest.xml:28:13-43
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/shrabon/.gradle/caches/transforms-3/8f8fa0f48ff167a78337289afcb19dfb/transformed/firebase-common-20.3.0/AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:20.2.0] /home/shrabon/.gradle/caches/transforms-3/1fda7a07fb9559bd4f64be3eda2d2969/transformed/firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/shrabon/.gradle/caches/transforms-3/8f8fa0f48ff167a78337289afcb19dfb/transformed/firebase-common-20.3.0/AndroidManifest.xml:26:13-77
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/shrabon/.gradle/caches/transforms-3/6d61f86309566abcbffb8fa4b53344c3/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
 	android:exported
