@@ -12,6 +12,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -38,6 +39,8 @@ import com.project.service_provider.admin.transportHelper;
 
 import java.io.InputStream;
 import java.util.Random;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Signin_activity extends AppCompatActivity {
 
@@ -49,6 +52,8 @@ public class Signin_activity extends AppCompatActivity {
     Bitmap bitmap;
     FirebaseAuth firebaseAuth;
     FirebaseFirestore firebaseFirestore;
+
+
 
 
     @Override
@@ -65,19 +70,36 @@ public class Signin_activity extends AppCompatActivity {
         confirmpass = findViewById(R.id.confirmpass);
         Register = findViewById(R.id.Register);
         logedIn = findViewById(R.id.logedIn);
-
         imgupl = findViewById(R.id.imguploadp);
 
-//        //drop down item//-------------------------------------------
-//        String[] type1 = new String[]{"Medical ","Trasnport ","Education "};
-//        //getting item from drop down---------------------------
-//        ArrayAdapter<String> adapter1 = new ArrayAdapter<>(
-//                Signin_activity.this,
-//                R.layout.drop_down_item,
-//                type1
-//        );
-//        AutoCompleteTextView autoCompleteTextView1= findViewById(R.id.drop1);
-//        autoCompleteTextView1.setAdapter(adapter1);
+
+        email.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String Email = email.getText().toString().trim();
+                String emailRegex = "^[a-zA-Z0-9._%+-]+@(gmail|yahoo)\\.com$";
+                Pattern pattern = Pattern.compile(emailRegex);
+                Matcher matcher = pattern.matcher(Email);
+
+                validinfo(email);
+
+            }
+
+            private void validinfo(EditText email) {
+                if(email.length()==0){
+                    email.setError("Field Can't empty");
+                    email.requestFocus();
+                }
+               /* else if(!email.matches("^[a-zA-Z0-9._%+-]+@(gmail|yahoo)\\.com$")){
+                    email.setError("enter valid email");
+                    email.requestFocus();
+                }*/
+                }
+        });
+
+
+
+
 
         imgupl.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -100,10 +122,9 @@ public class Signin_activity extends AppCompatActivity {
                 String Address = address.getText().toString();
                 String Pass = pass.getText().toString();
                 String Confirmpass = confirmpass.getText().toString();
-                System.out.println("Output Email " + Email);
-//                String category = autoCompleteTextView1.getText().toString();
 
-                if (TextUtils.isEmpty(Username)) {
+
+                if (Username.isEmpty()) {
                     username.setError("Username can't empty");
                     username.requestFocus();
                 } else if (TextUtils.isEmpty(Email)) {
@@ -119,11 +140,7 @@ public class Signin_activity extends AppCompatActivity {
                     confirmpass.setError("CnfirmPass Can't Empty");
                     confirmpass.requestFocus();
                 }
-//                else if (pass != confirmpass) {
-//                    pass.setError("Password didn't match");
-//                    confirmpass.setError("Password didn't match");
-//                    pass.requestFocus();
-//                }
+
                 else {
                     FirebaseStorage storage = FirebaseStorage.getInstance();
                     StorageReference uploder = storage.getReference("Image1"+new Random().nextInt(50));
@@ -168,7 +185,7 @@ public class Signin_activity extends AppCompatActivity {
                                                                     .document(FirebaseAuth.getInstance().getUid())
                                                                     .set(new model(Username, Email, Address, Pass, Confirmpass,uri.toString()));
                                                             Toast.makeText(Signin_activity.this, "Registration successfull!", Toast.LENGTH_LONG).show();
-                                                            Intent intent = new Intent(Signin_activity.this, Login_activity.class);
+                                                            Intent intent = new Intent(Signin_activity.this, Rough.class);
                                                             startActivity(intent);
                                                             finish();
 
@@ -201,6 +218,9 @@ public class Signin_activity extends AppCompatActivity {
             }
         });
     }
+
+
+    // image uri and bitmap
 
     public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);

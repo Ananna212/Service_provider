@@ -35,6 +35,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Service_Provider" >
         <activity
+            android:name="com.project.service_provider.Chat_activity"
+            android:exported="false" />
+        <activity
             android:name="com.project.service_provider.admin.Statistics"
             android:exported="false" />
         <activity

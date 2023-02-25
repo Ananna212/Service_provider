@@ -1942,6 +1942,7 @@ color teal_700
 color tooltip_background_dark
 color tooltip_background_light
 color white
+dimen _24sdp
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -2736,6 +2737,8 @@ drawable abc_vector_test
 drawable add_img_24
 drawable avd_hide_password
 drawable avd_show_password
+drawable back_arrow
+drawable back_img
 drawable background
 drawable baseline_call_24
 drawable baseline_email_24
@@ -2783,6 +2786,9 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable education
+drawable empty_image
+drawable empty_profile_img
+drawable field_bg
 drawable flower
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
@@ -2810,6 +2816,8 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
+drawable image_icon
+drawable login_bg
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -2885,13 +2893,17 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable profile
+drawable receive_msg_bgstyle
 drawable rounded_relativelayout
 drawable search_view_bg2
+drawable send_icon
+drawable sent_msg_style
 drawable statistics
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable transport
+drawable tutors
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3135,6 +3147,7 @@ id fixed
 id flip
 id floating
 id forever
+id forgetPass
 id fragment_container_view_tag
 id frost
 id fullscreen_header
@@ -3309,8 +3322,8 @@ id profile
 id profileClick
 id progress_circular
 id progress_horizontal
+id providingLayout
 id radio
-id ratingBar
 id ratio
 id rectangles
 id recview
@@ -3616,6 +3629,7 @@ layout activity_admin_doctor
 layout activity_admin_education
 layout activity_admin_home
 layout activity_admin_transport
+layout activity_chat
 layout activity_details_info
 layout activity_doctor_profile
 layout activity_login
@@ -3647,6 +3661,8 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout doctor_single_profile
 layout drop_down_item
+layout item_container_recivemsg
+layout item_container_sentmsg
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

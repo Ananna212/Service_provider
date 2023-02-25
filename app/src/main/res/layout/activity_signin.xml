@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#C7EDC8"
+    android:background="#EFF6EF"
     tools:context=".Signin_activity">
 
 <TextView
@@ -16,21 +16,31 @@
     android:textColor="@color/black"
     android:layout_gravity="center"
     android:gravity="center"
-    android:textSize="36sp"
+    android:textSize="26sp"
     android:layout_marginTop="20dp"/>
     <LinearLayout
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
         android:gravity="center">
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/imguploadp"
-            android:layout_width="130dp"
+            android:layout_width="110dp"
             app:civ_border_width="1dp"
-            android:layout_height="130dp"
-            android:layout_marginTop="10dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="5dp"
             android:layout_marginBottom="10dp"
-            android:src="@drawable/profile"
+            android:src="@drawable/empty_image"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Photo"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/black"
             />
     </LinearLayout>
 
@@ -39,30 +49,6 @@
        android:orientation="vertical"
        android:layout_width="match_parent"
        android:layout_height="wrap_content">
-
-<!--       <com.google.android.material.textfield.TextInputLayout-->
-<!--           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"-->
-<!--           android:layout_width="match_parent"-->
-<!--           android:layout_height="wrap_content"-->
-<!--           android:layout_marginTop="10dp"-->
-<!--           android:hint="Catagory"-->
-<!--           android:textColorHint="@color/black"-->
-<!--           app:boxBackgroundColor="@color/white"-->
-<!--           app:boxStrokeColor="@color/black"-->
-<!--           app:endIconTint="@color/black"-->
-<!--           app:hintTextColor="#124c7e">-->
-
-<!--           <AutoCompleteTextView-->
-<!--               android:background="@drawable/card_style"-->
-<!--               android:id="@+id/drop1"-->
-<!--               android:layout_width="match_parent"-->
-<!--               android:layout_height="wrap_content"-->
-<!--               android:inputType="none"-->
-<!--               android:textColor="@color/black">-->
-
-<!--           </AutoCompleteTextView>-->
-<!--       </com.google.android.material.textfield.TextInputLayout>-->
-
 
        <EditText
            android:layout_width="match_parent"

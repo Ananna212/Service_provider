@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="350dp"
     android:layout_height="600dp"
-    android:background="#90EF0000"
+    android:background="#D5EDEB"
     android:orientation="vertical"
     android:layout_gravity="center"
     android:padding="5dp"
@@ -29,7 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Bkash Payment"
-        android:textColor="@color/black"
+        android:textColor="#334BCF"
         android:textStyle="bold"
         android:textSize="30dp"
         android:layout_gravity="center"/>
@@ -68,8 +68,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:backgroundTint="#A8F5D7"
+            android:backgroundTint="#F6F6FB"
             android:text="Payment"
+
             android:textColor="@color/black"/>
 
 

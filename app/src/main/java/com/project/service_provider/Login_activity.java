@@ -3,16 +3,20 @@ package com.project.service_provider;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -22,8 +26,10 @@ import java.util.regex.Pattern;
 
 public class Login_activity extends AppCompatActivity {
     EditText userMail,userPass;
+    TextView ForgetPassword;
     Button Login, signup;
     FirebaseAuth mAuth;
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +38,44 @@ public class Login_activity extends AppCompatActivity {
         userPass = findViewById(R.id.passwords);
         Login = findViewById(R.id.signIn);
         signup = findViewById(R.id.signUp);
+        ForgetPassword = findViewById(R.id.forgetPass);
+
+
+
+        //forgetPassword
+
+
+            ForgetPassword.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+               /* progressDialog.setTitle("Email Sending...");
+                progressDialog.show();*/
+                    String mail = userMail.getText().toString().trim();
+                    if (mail.isEmpty())
+                    {
+                        userMail.setError("Email Can't empty");
+                        userMail.requestFocus();
+                    }
+                    else {
+                        mAuth.sendPasswordResetEmail(userMail.getText().toString().trim())
+                                .addOnCompleteListener(new OnCompleteListener<Void>() {
+                                    @Override
+                                    public void onComplete(@NonNull Task<Void> task) {
+                                        //progressDialog.cancel();
+                                        Toast.makeText(Login_activity.this, "Send Email", Toast.LENGTH_SHORT).show();
+
+                                    }
+                                })
+                                .addOnFailureListener(new OnFailureListener() {
+                                    @Override
+                                    public void onFailure(@NonNull Exception e) {
+                                        //progressDialog.cancel();
+                                        Toast.makeText(Login_activity.this, "Email Send Failed", Toast.LENGTH_SHORT).show();
+                                    }
+                                });
+                    }
+                }
+            });
 
         Login.setOnClickListener(new View.OnClickListener() {
             @Override

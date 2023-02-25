@@ -8,7 +8,10 @@ color purple_700
 color teal_200
 color teal_700
 color white
+dimen _24sdp
 drawable add_img_24
+drawable back_arrow
+drawable back_img
 drawable background
 drawable baseline_call_24
 drawable baseline_email_24
@@ -24,6 +27,9 @@ drawable card_style_ad
 drawable cerclebackground
 drawable checkmark
 drawable education
+drawable empty_image
+drawable empty_profile_img
+drawable field_bg
 drawable flower
 drawable header_curve
 drawable ic_add_location_black_24dp
@@ -37,14 +43,20 @@ drawable ic_call_black_24dp
 drawable ic_email_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable image_icon
+drawable login_bg
 drawable medical
 drawable nav_style
 drawable notification1
 drawable profile
+drawable receive_msg_bgstyle
 drawable rounded_relativelayout
 drawable search_view_bg2
+drawable send_icon
+drawable sent_msg_style
 drawable statistics
 drawable transport
+drawable tutors
 id DlNumber
 id EducationBtn
 id LogOut
@@ -83,6 +95,7 @@ id fetchName
 id fetchimag
 id fetshDesignation
 id firstpase
+id forgetPass
 id geoLocation
 id imageView3
 id imageView4
@@ -109,7 +122,7 @@ id paymentB
 id pieChart
 id profile
 id profileClick
-id ratingBar
+id providingLayout
 id recview
 id relativeLayout
 id scndpase
@@ -153,6 +166,7 @@ layout activity_admin_doctor
 layout activity_admin_education
 layout activity_admin_home
 layout activity_admin_transport
+layout activity_chat
 layout activity_details_info
 layout activity_doctor_profile
 layout activity_login
@@ -166,6 +180,8 @@ layout activity_tutor_providers
 layout activity_user_profiles
 layout doctor_single_profile
 layout drop_down_item
+layout item_container_recivemsg
+layout item_container_sentmsg
 layout singlerow
 layout transportsinglerow
 menu menu_item

@@ -8,6 +8,7 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <dimen name="_24sdp"/>
     <string name="app_name">Service_Provider</string>
     <string name="default_web_client_id" translatable="false">138981928929-lvhb8ci9pts03k1b11fl0pdkcsmc7m85.apps.googleusercontent.com</string>
     <string name="firebase_database_url" translatable="false">https://serviceprovider-d9d19-default-rtdb.firebaseio.com</string>

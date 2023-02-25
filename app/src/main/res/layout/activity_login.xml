@@ -3,21 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/login_bg"
     tools:context=".Login_activity">
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="AuW-service Provider"
+        android:text=""
         android:gravity="center"
         android:textSize="30sp"
         android:layout_marginTop="45dp"
         android:textStyle="bold|italic|normal"
         android:textColor="@color/black"
-        android:background="@color/white"/>
+        />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -25,11 +26,11 @@
         android:layout_gravity="center"
         app:cardElevation="10dp"
         app:cardCornerRadius="25dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="110dp"
         android:layout_marginStart="38dp"
         android:layout_marginEnd="38dp"
         app:cardUseCompatPadding="true"
-        android:background="@color/black">
+       >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -50,21 +51,21 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Log in"
+                    android:text=""
                     android:paddingTop="5dp"
                     android:textAlignment="center"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="26sp"
                     android:paddingRight="15dp"
                     android:paddingLeft="15dp"
                     android:paddingBottom="5dp"
                     android:gravity="center"
                     android:layout_gravity="center"
                     android:textStyle="normal|bold"
-                    android:background="@color/teal_200"
+                    android:background="@color/white"
                     android:id="@+id/login"
-                    > </TextView>
-
+                    >
+                </TextView>
 
             </LinearLayout>
             <LinearLayout
@@ -127,9 +128,10 @@
                         />
                 </com.google.android.material.textfield.TextInputLayout>
                 <TextView
+                    android:id="@+id/forgetPass"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="11sp"
+                    android:textSize="15sp"
                     android:text="Forget Password?"
                     android:textAlignment="textEnd"
                     android:textColor="@color/black"
@@ -160,7 +162,7 @@
                 android:layout_marginEnd="24dp"
                 android:textColor="@color/white"
                 android:layout_gravity="center"
-                android:backgroundTint="#57BDB4"
+                android:backgroundTint="#4CCFC4"
                 > </Button>
 
             <TextView
@@ -185,12 +187,12 @@
                 android:layout_marginStart="80dp"
                 android:layout_marginEnd="80dp"
                 android:backgroundTint="#57BDB4"
-                android:elevation="15dp"
                 android:gravity="center"
                 android:text="Sign Up"
-                android:textAllCaps="false"
                 android:textColor="@color/white"
-                android:textSize="17sp"></Button>
+                android:textSize="17sp">
+
+            </Button>
 
         </LinearLayout>
 
