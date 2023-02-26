@@ -56,8 +56,8 @@
         "source": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-main-41:\\layout\\transportsinglerow.xml"
     },
     {
-        "merged": "com.project.service_provider.app-merged_res-39:/drawable_back_img.xml.flat",
-        "source": "com.project.service_provider.app-main-41:/drawable/back_img.xml"
+        "merged": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-merged_res-39:\\drawable_back_img.xml.flat",
+        "source": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-main-41:\\drawable\\back_img.xml"
     },
     {
         "merged": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-merged_res-39:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
@@ -72,12 +72,16 @@
         "source": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-main-41:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-merged_res-39:\\drawable_baseline_payments_24.xml.flat",
-        "source": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-main-41:\\drawable\\baseline_payments_24.xml"
+        "merged": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-merged_res-39:\\drawable_back_arrow.jpg.flat",
+        "source": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-main-41:\\drawable\\back_arrow.jpg"
     },
     {
-        "merged": "com.project.service_provider.app-merged_res-39:/layout_activity_user_profiles.xml.flat",
-        "source": "com.project.service_provider.app-main-41:/layout/activity_user_profiles.xml"
+        "merged": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-merged_res-39:\\drawable_nagod.png.flat",
+        "source": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-main-41:\\drawable\\nagod.png"
+    },
+    {
+        "merged": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-merged_res-39:\\drawable_baseline_payments_24.xml.flat",
+        "source": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-main-41:\\drawable\\baseline_payments_24.xml"
     },
     {
         "merged": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-merged_res-39:\\drawable_empty_image.xml.flat",
@@ -94,10 +98,6 @@
     {
         "merged": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-merged_res-39:\\drawable_baseline_person_outline_24.xml.flat",
         "source": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-main-41:\\drawable\\baseline_person_outline_24.xml"
-    },
-    {
-        "merged": "com.project.service_provider.app-merged_res-39:/drawable_empty_profile_img.jpg.flat",
-        "source": "com.project.service_provider.app-main-41:/drawable/empty_profile_img.jpg"
     },
     {
         "merged": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-merged_res-39:\\layout_activity_login.xml.flat",
@@ -126,6 +126,10 @@
     {
         "merged": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-merged_res-39:\\layout_activity_paymentsystem.xml.flat",
         "source": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-main-41:\\layout\\activity_paymentsystem.xml"
+    },
+    {
+        "merged": "com.project.service_provider.app-merged_res-39:/layout_activity_paymentsystem.xml.flat",
+        "source": "com.project.service_provider.app-main-41:/layout/activity_paymentsystem.xml"
     },
     {
         "merged": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-merged_res-39:\\drawable_image_icon.xml.flat",
@@ -212,10 +216,6 @@
         "source": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-main-41:\\drawable\\background.png"
     },
     {
-        "merged": "com.project.service_provider.app-merged_res-39:/drawable_back_arrow.jpg.flat",
-        "source": "com.project.service_provider.app-main-41:/drawable/back_arrow.jpg"
-    },
-    {
         "merged": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-merged_res-39:\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-main-41:\\mipmap-hdpi\\ic_launcher.png"
     },
@@ -248,10 +248,6 @@
         "source": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-main-41:\\drawable\\baseline_security_24.xml"
     },
     {
-        "merged": "com.project.service_provider.app-merged_res-39:/layout_activity_tutor_providers.xml.flat",
-        "source": "com.project.service_provider.app-main-41:/layout/activity_tutor_providers.xml"
-    },
-    {
         "merged": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-merged_res-39:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-main-41:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
@@ -260,16 +256,16 @@
         "source": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-main-41:\\drawable\\ic_add_location_black_24dp.xml"
     },
     {
+        "merged": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-merged_res-39:\\drawable_payment_bg.xml.flat",
+        "source": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-main-41:\\drawable\\payment_bg.xml"
+    },
+    {
         "merged": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-merged_res-39:\\drawable_medical.png.flat",
         "source": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-main-41:\\drawable\\medical.png"
     },
     {
         "merged": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-merged_res-39:\\menu_menu_item.xml.flat",
         "source": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-main-41:\\menu\\menu_item.xml"
-    },
-    {
-        "merged": "com.project.service_provider.app-merged_res-39:/layout_activity_details_info.xml.flat",
-        "source": "com.project.service_provider.app-main-41:/layout/activity_details_info.xml"
     },
     {
         "merged": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-merged_res-39:\\drawable_ic_baseline_arrow_back_24.xml.flat",
@@ -308,6 +304,10 @@
         "source": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-main-41:\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-merged_res-39:\\drawable_empty_profile_img.jpg.flat",
+        "source": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-main-41:\\drawable\\empty_profile_img.jpg"
+    },
+    {
         "merged": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-merged_res-39:\\layout_activity_admin_home.xml.flat",
         "source": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-main-41:\\layout\\activity_admin_home.xml"
     },
@@ -334,10 +334,6 @@
     {
         "merged": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-merged_res-39:\\drawable_add_img_24.png.flat",
         "source": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-main-41:\\drawable\\add_img_24.png"
-    },
-    {
-        "merged": "com.project.service_provider.app-merged_res-39:/layout_activity_rough.xml.flat",
-        "source": "com.project.service_provider.app-main-41:/layout/activity_rough.xml"
     },
     {
         "merged": "C:\\Users\\Ananna\\.gradle\\daemon\\7.5\\com.project.service_provider.app-merged_res-39:\\drawable_baseline_call_24.xml.flat",

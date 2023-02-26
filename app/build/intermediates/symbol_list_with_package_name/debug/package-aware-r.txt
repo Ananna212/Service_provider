@@ -2877,6 +2877,7 @@ drawable mtrl_switch_thumb_unchecked_pressed
 drawable mtrl_switch_track
 drawable mtrl_switch_track_decoration
 drawable mtrl_tabs_default_indicator
+drawable nagod
 drawable nav_style
 drawable navigation_empty_icon
 drawable notification1
@@ -2892,6 +2893,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable payment_bg
 drawable profile
 drawable receive_msg_bgstyle
 drawable rounded_relativelayout

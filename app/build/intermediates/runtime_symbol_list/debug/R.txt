@@ -2876,6 +2876,7 @@ int drawable mtrl_switch_thumb_unchecked_pressed 0x7f0700fc
 int drawable mtrl_switch_track 0x7f0700fd
 int drawable mtrl_switch_track_decoration 0x7f0700fe
 int drawable mtrl_tabs_default_indicator 0x7f0700ff
+int drawable nagod 0x7f070122
 int drawable nav_style 0x7f070100
 int drawable navigation_empty_icon 0x7f070101
 int drawable notification1 0x7f070102
@@ -2891,6 +2892,7 @@ int drawable notification_template_icon_bg 0x7f07010b
 int drawable notification_template_icon_low_bg 0x7f07010c
 int drawable notification_tile_bg 0x7f07010d
 int drawable notify_panel_notification_icon_bg 0x7f07010e
+int drawable payment_bg 0x7f070123
 int drawable profile 0x7f07010f
 int drawable receive_msg_bgstyle 0x7f07011a
 int drawable rounded_relativelayout 0x7f070110

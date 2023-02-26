@@ -46,8 +46,10 @@ drawable ic_launcher_foreground
 drawable image_icon
 drawable login_bg
 drawable medical
+drawable nagod
 drawable nav_style
 drawable notification1
+drawable payment_bg
 drawable profile
 drawable receive_msg_bgstyle
 drawable rounded_relativelayout

@@ -2,44 +2,56 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="350dp"
-    android:layout_height="600dp"
-    android:background="#D5EDEB"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
     android:orientation="vertical"
     android:layout_gravity="center"
     android:padding="5dp"
  >
 <!--    tools:context=".paymentsystem"-->
 
-    <TextView
-        android:layout_marginTop="5dp"
-        android:layout_marginRight="5dp"
-        android:id="@+id/txtclose"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:textColor="@color/white"
-        android:text="X"
-        android:textStyle="bold"
-        android:layout_gravity="end"
-        android:gravity="center"
-        android:background="@drawable/cerclebackground"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@drawable/nagod"
+        android:orientation="vertical"
+        android:paddingBottom="30dp">
 
-    <TextView
-        android:layout_marginTop="70dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bkash Payment"
-        android:textColor="#334BCF"
-        android:textStyle="bold"
-        android:textSize="30dp"
-        android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/txtclose"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/cerclebackground"
+            android:gravity="center"
+            android:text="X"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:text="Send Money"
+            android:textColor="#EAEBF1"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
 
 <!--    fist step-->
     <LinearLayout
         android:id="@+id/firstpase"
         android:visibility="visible"
-        android:layout_marginTop="50dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginStart="10dp"
         android:layout_marginEnd="20dp"
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -50,28 +62,30 @@
             android:id="@+id/bikashnumbr"
             android:layout_width="match_parent"
             android:padding="10dp"
-            android:hint="Enter your Bkash number"
+            android:textColor="#000000"
+            android:textColorHint="@color/black"
+            android:hint="Enter your Account number"
             android:layout_height="50dp"
-            android:background="@drawable/card_style"
+            android:background="@drawable/payment_bg"
             />
         <EditText
             android:id="@+id/ammount"
             android:layout_marginTop="20dp"
             android:layout_width="match_parent"
+            android:textColorHint="@color/black"
             android:padding="10dp"
             android:hint="Enter Amount"
             android:layout_height="50dp"
-            android:background="@drawable/card_style"
+            android:background="@drawable/payment_bg"
             />
         <Button
             android:id="@+id/paymentB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:backgroundTint="#F6F6FB"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="#F44B3F"
             android:text="Payment"
-
-            android:textColor="@color/black"/>
+            android:textColor="@color/white"/>
 
 
     </LinearLayout>
@@ -97,13 +111,13 @@
             android:padding="10dp"
             android:hint="Enter OTP"
             android:layout_height="50dp"
-            android:background="@drawable/card_style"
+            android:background="@drawable/payment_bg"
             />
         <Button
             android:id="@+id/trsubmitBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="30dp"
             android:backgroundTint="#A8F5D7"
             android:text="Submit"
             android:textColor="@color/black"

@@ -22,6 +22,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:orientation="vertical"
                 android:gravity="center">
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/imguploadT"
@@ -30,7 +31,17 @@
                     android:layout_height="130dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:src="@drawable/add_img_24"
+                    android:src="@drawable/empty_profile_img"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Add a profile Photo"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="10dp"
                     />
             </LinearLayout>
 
@@ -77,8 +88,7 @@
                     android:layout_marginLeft="80dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="80dp"
-
-                    android:hint="Vihicle Number"
+                    android:hint="Vehicle Number"
                     android:textColorHint="@color/black"
                     app:boxBackgroundColor="@color/white"
                     app:boxStrokeColor="@color/black"
@@ -108,7 +118,7 @@
                     android:layout_marginLeft="80dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="80dp"
-                    android:hint="MObile Number"
+                    android:hint="Mobile Number"
                     android:textColorHint="@color/black"
                     app:boxBackgroundColor="@color/white"
                     app:boxStrokeColor="@color/black"
@@ -138,7 +148,7 @@
                     android:layout_marginLeft="80dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="80dp"
-                    android:hint="Driver Lc_Number"
+                    android:hint="Driver Lisence Number"
                     android:textColorHint="@color/black"
                     app:boxBackgroundColor="@color/white"
                     app:boxStrokeColor="@color/black"
