@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -23,13 +24,15 @@ import com.google.firebase.storage.FirebaseStorage;
 
 public class Rough extends AppCompatActivity {
 
-    CardView Education,Transport,medical;
+    CardView Education,Transport,medical,Electrician;
     TextView Profile,logout;
     LinearLayout profiled;
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rough);
+        Electrician = findViewById(R.id.electrician);
         Education = findViewById(R.id.education);
         Transport = findViewById(R.id.TransPortcard);
         medical = findViewById(R.id.medical);
@@ -61,6 +64,15 @@ public class Rough extends AppCompatActivity {
             @Override
             public void onFailure(@NonNull Exception e) {
                 Toast.makeText(Rough.this, "Failed to fetch data", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        Electrician.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Rough.this, MainActivity.class);
+                intent.putExtra("key", "Electric");
+                startActivity(intent);
             }
         });
 
