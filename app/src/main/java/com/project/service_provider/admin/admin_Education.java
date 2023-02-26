@@ -19,8 +19,10 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.textfield.TextInputLayout;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.OnProgressListener;
 import com.google.firebase.storage.StorageReference;
@@ -162,11 +164,14 @@ public class admin_Education extends AppCompatActivity {
                                     uploder.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
                                         @Override
                                         public void onSuccess(Uri uri) {
+
+                                            String currentuser = FirebaseAuth.getInstance().getCurrentUser().getUid();
                                             FirebaseDatabase rootNode = FirebaseDatabase.getInstance();
                                             DatabaseReference root = rootNode.getReference("Teacher");
-                                            userHelper helper = new userHelper(Name,Designation,Aera_of_study,Email,Phone,Adress,uri.toString());
+                                            userHelper helper = new userHelper(Name,Designation,Aera_of_study,Email,Phone,Adress,currentuser,uri.toString());
 
-                                            root.child(Name).setValue(helper);
+                                            String key = root.push().getKey();
+                                            root.child(key).setValue(helper);
 
                                             name.getEditText().setText("");
                                             designation.getEditText().setText("");

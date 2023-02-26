@@ -18,6 +18,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.textfield.TextInputLayout;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
@@ -153,11 +154,14 @@ public class admin_Doctor extends AppCompatActivity {
                                     uploder.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
                                         @Override
                                         public void onSuccess(Uri uri) {
+
+                                            String currentuser = FirebaseAuth.getInstance().getCurrentUser().getUid();
                                             FirebaseDatabase rootNode = FirebaseDatabase.getInstance();
                                             DatabaseReference root = rootNode.getReference("Medical");
-                                            userHelperDoctor helper = new userHelperDoctor(Name,Specialist,Email,Phone,Adress,uri.toString());
+                                            userHelperDoctor helper = new userHelperDoctor(Name,Specialist,Email,Phone,Adress,currentuser,uri.toString());
 
-                                            root.child(Name).setValue(helper);
+                                            String key = root.push().getKey();
+                                            root.child(key).setValue(helper);
 
                                             name.getEditText().setText("");
                                             specialist.getEditText().setText("");

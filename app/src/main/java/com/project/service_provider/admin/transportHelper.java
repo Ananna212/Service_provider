@@ -1,15 +1,24 @@
 package com.project.service_provider.admin;
 
 public class transportHelper {
-    private String  Name,VihicleNumber,MobileNumber,DrivingLNumber,Location,Pic;
+    private String  Name,VihicleNumber,MobileNumber,DrivingLNumber,Location,curentUID,Pic;
 
-    public transportHelper(String name, String vihicleNumber, String mobileNumber, String drivingLNumber, String location, String pic) {
+    public transportHelper(String name, String vihicleNumber, String mobileNumber, String drivingLNumber, String location, String curentUID, String pic) {
         Name = name;
         VihicleNumber = vihicleNumber;
         MobileNumber = mobileNumber;
         DrivingLNumber = drivingLNumber;
         Location = location;
+        this.curentUID = curentUID;
         Pic = pic;
+    }
+
+    public String getCurentUID() {
+        return curentUID;
+    }
+
+    public void setCurentUID(String curentUID) {
+        this.curentUID = curentUID;
     }
 
     public String getName() {

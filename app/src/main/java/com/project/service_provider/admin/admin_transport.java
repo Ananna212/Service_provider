@@ -32,6 +32,7 @@ import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.textfield.TextInputLayout;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
@@ -167,11 +168,13 @@ public class admin_transport extends AppCompatActivity {
                                     uploder.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
                                         @Override
                                         public void onSuccess(Uri uri) {
+                                            String currentuser = FirebaseAuth.getInstance().getCurrentUser().getUid();
                                             FirebaseDatabase rootNode = FirebaseDatabase.getInstance();
                                             DatabaseReference root = rootNode.getReference("Transport");
-                                            transportHelper helper = new transportHelper(Name, VihicleNumber, MobileNumber, DrivingLNumber, Location, uri.toString());
+                                            transportHelper helper = new transportHelper(Name, VihicleNumber, MobileNumber, DrivingLNumber, Location,currentuser, uri.toString());
 
-                                            root.child(Name).setValue(helper);
+                                            String key = root.push().getKey();
+                                            root.child(key).setValue(helper);
 
                                             name.getEditText().setText("");
                                             Vnumber.getEditText().setText("");

@@ -1,16 +1,26 @@
 package com.project.service_provider.admin;
 
 public class userHelper {
-  private String  Name,Designation,Aera_of_study,Email,Phone,Adress,picurl;
+  private String  Name,Designation,Aera_of_study,Email,Phone,Adress,curentUID,picurl;
 
-    public userHelper(String name, String designation, String aera_of_study, String email, String phone, String adress, String picurl) {
+
+    public userHelper(String name, String designation, String aera_of_study, String email, String phone, String adress, String curentUID, String picurl) {
         Name = name;
         Designation = designation;
         Aera_of_study = aera_of_study;
         Email = email;
         Phone = phone;
         Adress = adress;
+        this.curentUID = curentUID;
         this.picurl = picurl;
+    }
+
+    public String getCurentUID() {
+        return curentUID;
+    }
+
+    public void setCurentUID(String curentUID) {
+        this.curentUID = curentUID;
     }
 
     public String getName() {

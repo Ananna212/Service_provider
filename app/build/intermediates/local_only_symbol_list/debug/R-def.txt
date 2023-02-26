@@ -81,6 +81,9 @@ id card_item
 id card_name
 id card_nameD
 id confirmpass
+id delete
+id deleted
+id deletet
 id doctor_address
 id doctor_email
 id doctor_name

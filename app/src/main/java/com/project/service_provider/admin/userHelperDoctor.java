@@ -1,15 +1,25 @@
 package com.project.service_provider.admin;
 
 public class userHelperDoctor {
-    String Name,Specialist,Email,Phone,Adress,pic;
+    String Name,Specialist,Email,Phone,Adress,curentUID,pic;
 
-    public userHelperDoctor(String name, String specialist, String email, String phone, String adress, String pic) {
+
+    public userHelperDoctor(String name, String specialist, String email, String phone, String adress, String curentUID, String pic) {
         Name = name;
         Specialist = specialist;
         Email = email;
         Phone = phone;
         Adress = adress;
+        this.curentUID = curentUID;
         this.pic = pic;
+    }
+
+    public String getCurentUID() {
+        return curentUID;
+    }
+
+    public void setCurentUID(String curentUID) {
+        this.curentUID = curentUID;
     }
 
     public String getName() {

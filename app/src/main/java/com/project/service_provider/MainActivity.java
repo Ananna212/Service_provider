@@ -20,6 +20,7 @@ import android.widget.Toast;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.project.service_provider.admin.TransportmyAdapter;
@@ -41,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         searchView = findViewById(R.id.searchA);
         searchView.setFocusable(true);
         searchView.requestFocusFromTouch();
+        String currentuser = FirebaseAuth.getInstance().getCurrentUser().getUid();
 
         String data = getIntent().getExtras().getString("key","Teacher");
 
