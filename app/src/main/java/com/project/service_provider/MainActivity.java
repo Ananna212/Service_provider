@@ -56,6 +56,9 @@ public class MainActivity extends AppCompatActivity {
                 else if(data.equals("Transport")){
                     filterListT(newText);
                 }
+                else if(data.equals("Electric")){
+                    filterList(newText);
+                }
                 else if(data.equals("Medical")){
                     filterListTM(newText);
                 }
@@ -116,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
 
         FirebaseRecyclerOptions<medicalAdapter> toptions =
                 new FirebaseRecyclerOptions.Builder<medicalAdapter>()
-                        .setQuery(FirebaseDatabase.getInstance().getReference().child("Medical").orderByChild("name").startAt(newText), medicalAdapter.class)
+                        .setQuery(FirebaseDatabase.getInstance().getReference().child("Medical").orderByChild("specialist").startAt(newText), medicalAdapter.class)
                         .build();
         adapter = new medicalmyAdapter(toptions);
         adapter.startListening();
@@ -126,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
     private void filterListT(String newText) {
         FirebaseRecyclerOptions<transportAdapter> toptions =
                 new FirebaseRecyclerOptions.Builder<transportAdapter>()
-                        .setQuery(FirebaseDatabase.getInstance().getReference().child("Transport").orderByChild("name").startAt(newText), transportAdapter.class)
+                        .setQuery(FirebaseDatabase.getInstance().getReference().child("Transport").orderByChild("location").startAt(newText), transportAdapter.class)
                         .build();
         adapter = new TransportmyAdapter(toptions);
         adapter.startListening();
@@ -137,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
 
         FirebaseRecyclerOptions<modelAdapter> options =
                 new FirebaseRecyclerOptions.Builder<modelAdapter>()
-                        .setQuery(FirebaseDatabase.getInstance().getReference().child("Teacher").orderByChild("name").startAt(newText), modelAdapter.class)
+                        .setQuery(FirebaseDatabase.getInstance().getReference().child("Teacher").orderByChild("aera_of_study").startAt(newText), modelAdapter.class)
                         .build();
         adapter = new myAdapter(options);
         adapter.startListening();
