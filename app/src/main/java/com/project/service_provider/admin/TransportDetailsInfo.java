@@ -128,7 +128,7 @@ public class TransportDetailsInfo extends AppCompatActivity {
                         String code = editTextCountryCode.getText().toString().trim();
                         String number = editTextPhone.getText().toString().trim();
 
-                        if (number.isEmpty() || number.length() < 10) {
+                        if (number.isEmpty() || number.length() != 10) {
                             editTextPhone.setError("Valid number is required");
                             editTextPhone.requestFocus();
                             return;
@@ -178,7 +178,6 @@ public class TransportDetailsInfo extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         myDialog.dismiss();
-                        thridL.setVisibility(View.VISIBLE);
                     }
                 });
 
@@ -264,10 +263,7 @@ public class TransportDetailsInfo extends AppCompatActivity {
 
                             scndL.setVisibility(View.GONE);
                             missingL.setVisibility(View.VISIBLE);
-//                            Intent intent = new Intent(VerifyPhoneActivity.this, ProfileActivity.class);
-//                            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-//
-//                            startActivity(intent);
+
 
                         } else {
                             Toast.makeText(TransportDetailsInfo.this, task.getException().getMessage(), Toast.LENGTH_LONG).show();
