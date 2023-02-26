@@ -44,6 +44,7 @@ drawable ic_email_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable image_icon
+drawable img_code_verification
 drawable login_bg
 drawable medical
 drawable nagod
@@ -70,7 +71,9 @@ id TransportBtn
 id Vnumber
 id address
 id ammount
-id bikashnumbr
+id buttonContinue
+id buttonPin
+id buttonVerify
 id cardLayout
 id card_d
 id card_dD
@@ -86,6 +89,10 @@ id doctor_specialite
 id done
 id driverName
 id editPro
+id editTextCode
+id editTextCountryCode
+id editTextPhone
+id editTextPin
 id education
 id email
 id exit
@@ -117,13 +124,13 @@ id logedIn
 id login
 id loginLayout
 id medical
-id otp
+id missingStep
 id pass
 id passwords
-id paymentB
 id pieChart
 id profile
 id profileClick
+id progressbar
 id providingLayout
 id recview
 id relativeLayout

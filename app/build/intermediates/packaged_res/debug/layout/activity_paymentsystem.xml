@@ -58,16 +58,46 @@
         android:layout_height="wrap_content"
         android:gravity="center">
 
-        <EditText
-            android:id="@+id/bikashnumbr"
+        <LinearLayout
+
             android:layout_width="match_parent"
-            android:padding="10dp"
-            android:textColor="#000000"
-            android:textColorHint="@color/black"
-            android:hint="Enter your Account number"
-            android:layout_height="50dp"
-            android:background="@drawable/payment_bg"
-            />
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:padding="10dp"
+                android:background="@drawable/payment_bg"
+                android:id="@+id/editTextCountryCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:text="+880"
+                 />
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="0dp" />
+
+            <EditText
+                android:background="@drawable/payment_bg"
+                android:id="@+id/editTextPhone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter your Account number"
+                android:textColor="#000000"
+                android:textColorHint="@color/black"
+                android:inputType="phone"
+                android:padding="10dp"
+                android:maxLines="1">
+                <requestFocus />
+            </EditText>
+
+
+        </LinearLayout>
+
+
         <EditText
             android:id="@+id/ammount"
             android:layout_marginTop="20dp"
@@ -79,7 +109,7 @@
             android:background="@drawable/payment_bg"
             />
         <Button
-            android:id="@+id/paymentB"
+            android:id="@+id/buttonContinue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
@@ -103,9 +133,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/img_code_verification" />
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="OTP has been sent to you on your mobile phone. Please enter it below"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/black" />
 
         <EditText
-            android:id="@+id/otp"
+            android:id="@+id/editTextCode"
             android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:padding="10dp"
@@ -114,7 +157,7 @@
             android:background="@drawable/payment_bg"
             />
         <Button
-            android:id="@+id/trsubmitBtn"
+            android:id="@+id/buttonVerify"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -126,10 +169,75 @@
 
         </Button>
 
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonVerify"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone" />
+
 
     </LinearLayout>
 
 <!--     Thrid Step-->
+
+    <LinearLayout
+        android:id="@+id/missingStep"
+        android:visibility="gone"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/img_code_verification" />
+
+
+
+        <EditText
+            android:id="@+id/editTextPin"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:hint="Enter you pin number"
+            android:layout_height="50dp"
+            android:textColor="#000000"
+            android:textColorHint="@color/black"
+            android:background="@drawable/payment_bg"
+            />
+        <Button
+            android:id="@+id/buttonPin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#A8F5D7"
+            android:text="Submit"
+            android:textColor="@color/black"
+
+            >
+
+        </Button>
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonVerify"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+
+
+
+<!--    Fourth step-->
 
 
     <LinearLayout

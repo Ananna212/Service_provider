@@ -2817,6 +2817,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
 drawable image_icon
+drawable img_code_verification
 drawable login_bg
 drawable m3_appbar_background
 drawable m3_avd_hide_password
@@ -3012,7 +3013,6 @@ id baseline
 id beginOnFirstDraw
 id beginning
 id bestChoice
-id bikashnumbr
 id blocking
 id bottom
 id bounce
@@ -3024,7 +3024,10 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id buttonContinue
 id buttonPanel
+id buttonPin
+id buttonVerify
 id cache_measures
 id callMeasure
 id cancel_action
@@ -3113,6 +3116,10 @@ id easeInOut
 id easeOut
 id east
 id editPro
+id editTextCode
+id editTextCountryCode
+id editTextPhone
+id editTextPin
 id edit_query
 id education
 id elastic
@@ -3245,6 +3252,7 @@ id medical
 id message
 id middle
 id mini
+id missingStep
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3297,7 +3305,6 @@ id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
-id otp
 id outline
 id outward
 id overshoot
@@ -3312,7 +3319,6 @@ id password_toggle
 id passwords
 id path
 id pathRelative
-id paymentB
 id peekHeight
 id percent
 id pieChart
@@ -3324,6 +3330,7 @@ id profile
 id profileClick
 id progress_circular
 id progress_horizontal
+id progressbar
 id providingLayout
 id radio
 id ratio
