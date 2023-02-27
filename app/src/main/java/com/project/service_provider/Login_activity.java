@@ -83,13 +83,14 @@ public class Login_activity extends AppCompatActivity {
                 String email = userMail.getText().toString().trim();
                 String pass = userPass.getText().toString();
 
-                String emailRegex = "^(?=^[A-Za-z0-9._%+-]+@)(?=.*gmail\\.com$).+";
+                String emailRegex = "^[a-zA-Z0-9._%+-]+@(gmail|yahoo)\\.com$";
                 Pattern pattern = Pattern.compile(emailRegex);
                 Matcher matcher = pattern.matcher(email);
 
-                String adminRegex = "^(?=^[A-Za-z0-9._%+-]+@)(?=.*admin\\.com$).+";
-                Pattern adminpattern = Pattern.compile(adminRegex);
-                Matcher adminatcher = adminpattern.matcher(email);
+//                String passwordRegex = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)[a-zA-Z\\d]{6,}$\n";
+//                Pattern passpattern = Pattern.compile(passwordRegex);
+//                Matcher passmatcher = passpattern.matcher(pass.trim());
+
 
                 if(TextUtils.isEmpty(email)){
                     userMail.setError("Email can't empty");
@@ -97,7 +98,13 @@ public class Login_activity extends AppCompatActivity {
                 }else if(TextUtils.isEmpty(pass)){
                     userPass.setError("Password Can't Empty");
                     userPass.requestFocus();
-                }else {
+                }
+//                else if (!passmatcher.matches()) {
+//                    userPass.setError("one lowercase letter!, one uppercase letter!, one digit!, minimum 6 digit");
+//                    userPass.requestFocus();
+//
+//                }
+                else {
 
                     if(matcher.matches()) {
                         mAuth = FirebaseAuth.getInstance();
@@ -122,30 +129,11 @@ public class Login_activity extends AppCompatActivity {
 
                                     }
                                 });
-                    } else if (adminatcher.matches()) {
-                        mAuth = FirebaseAuth.getInstance();
 
-                        mAuth.signInWithEmailAndPassword(email, pass)
-                                .addOnSuccessListener(new OnSuccessListener<AuthResult>() {
-                                    @Override
-                                    public void onSuccess(AuthResult authResult) {
-
-
-                                        Intent myintent = new Intent(Login_activity.this, com.project.service_provider.admin.admin_home.class);
-                                        startActivity(myintent);
-
-                                        Toast.makeText(Login_activity.this, "Login Successfull", Toast.LENGTH_SHORT).show();
-                                    }
-                                })
-                                .addOnFailureListener(new OnFailureListener() {
-                                    @Override
-                                    public void onFailure(@NonNull Exception e) {
-
-                                        Toast.makeText(Login_activity.this, "Login Failed", Toast.LENGTH_SHORT).show();
-
-                                    }
-                                });
-                        
+                    }
+                    else{
+                        userMail.setError("Enter valid email");
+                        userMail.requestFocus();
                     }
                 }
 

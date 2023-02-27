@@ -106,8 +106,8 @@ public class admin_Education extends AppCompatActivity {
                 }else if(TextUtils.isEmpty(Adress)){
                     adress.setError("Shop Address cannot be empty");
                     adress.requestFocus();
-
-                }else if(imageUri == null){
+                }
+                else if(imageUri == null){
                     AlertDialog.Builder builder1 = new AlertDialog.Builder(admin_Education.this);
                     builder1.setTitle("Alert !");
                     builder1.setMessage("Image can't selected ! Please Select Image.");
@@ -179,7 +179,7 @@ public class admin_Education extends AppCompatActivity {
                                             afs.getEditText().setText("");
                                             phone.getEditText().setText("");
                                             email.getEditText().setText("");
-                                            imgupl.setImageResource(R.drawable.add_img_24);
+                                            imgupl.setImageResource(R.drawable.empty_profile_img);
                                             Toast.makeText(admin_Education.this, "Data Inserted Successfully", Toast.LENGTH_SHORT).show();
                                         }
                                     });

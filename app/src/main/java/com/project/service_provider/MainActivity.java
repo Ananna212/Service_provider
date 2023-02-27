@@ -56,9 +56,6 @@ public class MainActivity extends AppCompatActivity {
                 else if(data.equals("Transport")){
                     filterListT(newText);
                 }
-                else if(data.equals("Electric")){
-                    filterList(newText);
-                }
                 else if(data.equals("Medical")){
                     filterListTM(newText);
                 }
@@ -110,8 +107,6 @@ public class MainActivity extends AppCompatActivity {
             recview.setAdapter(adapter);
 
         }
-
-
 
     }
 

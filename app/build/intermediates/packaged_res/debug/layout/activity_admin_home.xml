@@ -72,13 +72,72 @@
                 />
 
         </LinearLayout>
-
-
         >
 
     </LinearLayout>
+    <!--<LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:id="@+id/ElectBtn"
+            android:layout_marginRight="20dp"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:background="@drawable/button_style"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/electrician_img" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Electrician"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/carpenBtn"
+            android:layout_marginLeft="20dp"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:background="@drawable/button_style"
+            >
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:src="@drawable/medical"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Carpenter"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+        >
+
+    </LinearLayout> -->
+
     <LinearLayout
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -108,8 +167,8 @@
                 />
 
         </LinearLayout>
-        <LinearLayout
-            android:id="@+id/statistics"
+       <!-- <LinearLayout
+            android:id="@+id/statistics1"
             android:layout_marginRight="20dp"
             android:layout_width="150dp"
             android:layout_height="120dp"
@@ -132,8 +191,118 @@
                 android:textColor="@color/black"
                 />
 
-        </LinearLayout>
+        </LinearLayout>  -->
+
+    </LinearLayout>
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="More"
+          android:layout_marginTop="40dp"
+          android:textSize="20sp"
+          android:textColor="@color/black"
+          android:padding="20dp"
+          android:background="#E3E6F3"/>
+   <!-- <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:id="@+id/TransportBtn"
+            android:layout_marginRight="20dp"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:background="@drawable/button_style"
+            >
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:src="@drawable/transport"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Transport"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout> -->
+   <LinearLayout
+       android:orientation="horizontal"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+       <LinearLayout
+           android:id="@+id/statistics"
+           android:layout_marginRight="20dp"
+           android:layout_marginLeft="20dp"
+           android:layout_width="150dp"
+           android:layout_height="120dp"
+           android:orientation="vertical"
+           android:layout_marginTop="50dp"
+           android:background="@drawable/button_style"
+           >
+           <ImageView
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:src="@drawable/statistics"
+               android:layout_gravity="center"
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Statistics"
+               android:textSize="18dp"
+               android:textAlignment="center"
+               android:textColor="@color/black"
+               />
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:id="@+id/PAYMENTad"
+           android:layout_marginRight="20dp"
+           android:layout_marginLeft="20dp"
+           android:layout_width="150dp"
+           android:layout_height="120dp"
+           android:orientation="vertical"
+           android:layout_marginTop="50dp"
+           android:background="@drawable/button_style"
+           >
+           <ImageView
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:src="@drawable/baseline_payments_24"
+               android:layout_gravity="center"
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Payment"
+               android:textSize="18dp"
+               android:textAlignment="center"
+               android:textColor="@color/black"
+               />
+
+       </LinearLayout>
+   </LinearLayout>
+
+<!--    <ImageView-->
+<!--        android:id="@+id/PAYMENT"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginStart="50dp"-->
+<!--        app:srcCompat="@drawable/baseline_payments_24" />-->
 
     </LinearLayout>
 
-</LinearLayout>
+
+

@@ -32,7 +32,7 @@ public class Rough extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rough);
-        Electrician = findViewById(R.id.electrician);
+//        Electrician = findViewById(R.id.electrician);
         Education = findViewById(R.id.education);
         Transport = findViewById(R.id.TransPortcard);
         medical = findViewById(R.id.medical);
@@ -67,14 +67,14 @@ public class Rough extends AppCompatActivity {
             }
         });
 
-        Electrician.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(Rough.this, MainActivity.class);
-                intent.putExtra("key", "Electric");
-                startActivity(intent);
-            }
-        });
+//        Electrician.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(Rough.this, MainActivity.class);
+//                intent.putExtra("key", "Electric");
+//                startActivity(intent);
+//            }
+//        });
 
         medical.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -45,7 +45,7 @@ public class myAdapter extends FirebaseRecyclerAdapter<modelAdapter,myAdapter.my
 
 
         holder.Name.setText(model.getName());
-        holder.designation.setText(model.getDesignation());
+        holder.designation.setText(model.getAera_of_study());
 
         Glide.with(holder.imgl.getContext()).load(model.getPicurl()).into(holder.imgl);
 

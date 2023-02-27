@@ -27,6 +27,7 @@ drawable card_style_ad
 drawable cerclebackground
 drawable checkmark
 drawable education
+drawable electrician_img
 drawable empty_image
 drawable empty_profile_img
 drawable field_bg
@@ -65,6 +66,7 @@ id EducationBtn
 id LogOut
 id Mnumber
 id PAYMENT
+id PAYMENTad
 id Register
 id TransPortcard
 id TransportBtn
@@ -97,6 +99,7 @@ id editTextCountryCode
 id editTextPhone
 id editTextPin
 id education
+id electrician
 id email
 id exit
 id festhEmail
@@ -192,6 +195,7 @@ layout activity_tutor_providers
 layout activity_user_profiles
 layout doctor_single_profile
 layout drop_down_item
+layout electrician_singlerow
 layout item_container_recivemsg
 layout item_container_sentmsg
 layout singlerow

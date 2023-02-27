@@ -57,7 +57,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="250dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
         android:columnCount="2"
@@ -204,198 +204,13 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_row="2"
-            android:layout_rowWeight="1"
-            android:layout_column="0"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            app:cardBackgroundColor="#F7F8F8"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="8dp"
-            app:cardUseCompatPadding="true">
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="155dp"
-                android:layout_gravity="center_vertical|center_horizontal"
-                android:gravity="center"
-                android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="111dp"
-                    android:layout_height="73dp"
-                    android:src="@drawable/background" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Photographer"
-                    android:textAlignment="center"
-                    android:textStyle="bold" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_row="2"
-            android:layout_rowWeight="1"
-            android:layout_column="1"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            app:cardBackgroundColor="#F7F8F8"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="8dp"
-            app:cardUseCompatPadding="true">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="155dp"
-                android:layout_gravity="center_vertical|center_horizontal"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="111dp"
-                    android:layout_height="73dp"
-                    android:src="@drawable/background" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Food"
-                    android:textAlignment="center"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
 
 
     </GridLayout>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="View More"
-        android:layout_below="@+id/providingLayout"
-        android:gravity="center"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-
-        />
-
-
-
-    <!--<LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="3">
-
-        <ImageView
-            android:id="@+id/education"
-            android:layout_weight="1"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:src="@drawable/tutors"
-            android:layout_marginRight="15dp"
-            android:layout_marginLeft="15dp"
-            android:background="@drawable/field_bg"/>
-
-        <ImageView
-            android:id="@+id/TransPortcard"
-            android:layout_weight="1"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src="@drawable/education"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:background="@drawable/field_bg"/>
-        <ImageView
-            android:id="@+id/medical"
-            android:layout_weight="1"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src="@drawable/education"
-            android:layout_marginRight="15dp"
-            android:layout_marginLeft="15dp"
-            android:background="@drawable/field_bg"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal"
-        android:weightSum="3">
-
-        <ImageView
-            android:layout_weight="1"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src="@drawable/education"
-            android:layout_marginRight="15dp"
-            android:layout_marginLeft="15dp"
-            android:background="@drawable/field_bg"/>
-
-        <ImageView
-            android:layout_weight="1"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src="@drawable/education"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:background="@drawable/field_bg"/>
-        <ImageView
-            android:layout_weight="1"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src="@drawable/education"
-            android:layout_marginRight="15dp"
-            android:layout_marginLeft="15dp"
-            android:background="@drawable/field_bg"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal"
-        android:weightSum="3">
-
-        <ImageView
-            android:layout_weight="1"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src="@drawable/education"
-            android:layout_marginRight="15dp"
-            android:layout_marginLeft="15dp"
-            android:background="@drawable/field_bg"/>
-
-        <ImageView
-            android:layout_weight="1"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src="@drawable/education"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:background="@drawable/field_bg"/>
-        <ImageView
-            android:layout_weight="1"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src="@drawable/education"
-            android:layout_marginRight="15dp"
-            android:layout_marginLeft="15dp"
-            android:background="@drawable/field_bg"/>
-
-    </LinearLayout>-->
 
 
 

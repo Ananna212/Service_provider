@@ -73,31 +73,6 @@ public class Signin_activity extends AppCompatActivity {
         imgupl = findViewById(R.id.imguploadp);
 
 
-        email.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String Email = email.getText().toString().trim();
-                String emailRegex = "^[a-zA-Z0-9._%+-]+@(gmail|yahoo)\\.com$";
-                Pattern pattern = Pattern.compile(emailRegex);
-                Matcher matcher = pattern.matcher(Email);
-
-                validinfo(email);
-
-            }
-
-            private void validinfo(EditText email) {
-                if(email.length()==0){
-                    email.setError("Field Can't empty");
-                    email.requestFocus();
-                }
-               /* else if(!email.matches("^[a-zA-Z0-9._%+-]+@(gmail|yahoo)\\.com$")){
-                    email.setError("enter valid email");
-                    email.requestFocus();
-                }*/
-                }
-        });
-
-
 
 
 
@@ -123,6 +98,13 @@ public class Signin_activity extends AppCompatActivity {
                 String Pass = pass.getText().toString();
                 String Confirmpass = confirmpass.getText().toString();
 
+                String emailRegex = "^[a-zA-Z0-9._%+-]+@(gmail|yahoo)\\.com$";
+                Pattern pattern = Pattern.compile(emailRegex);
+                Matcher matcher = pattern.matcher(Email);
+
+//                String passwordRegex = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)[a-zA-Z\\d]{6,}$\n";
+//                Pattern passpattern = Pattern.compile(passwordRegex);
+//                Matcher passmatcher = passpattern.matcher(Pass.trim());
 
                 if (Username.isEmpty()) {
                     username.setError("Username can't empty");
@@ -136,74 +118,86 @@ public class Signin_activity extends AppCompatActivity {
                 } else if (TextUtils.isEmpty(Pass)) {
                     pass.setError("Password Can't Empty");
                     pass.requestFocus();
-                } else if (TextUtils.isEmpty(Confirmpass)) {
+                }
+//                else if (!passmatcher.matches()) {
+//                    pass.setError("one lowercase letter!, one uppercase letter!, one digit!, minimum 6 digit");
+//                    pass.requestFocus();
+//                }
+                else if (TextUtils.isEmpty(Confirmpass)) {
                     confirmpass.setError("CnfirmPass Can't Empty");
                     confirmpass.requestFocus();
                 }
 
                 else {
-                    FirebaseStorage storage = FirebaseStorage.getInstance();
-                    StorageReference uploder = storage.getReference("Image1"+new Random().nextInt(50));
 
-                    uploder.putFile(imageUri)
-                            .addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
-                                @Override
-                                public void onProgress(UploadTask.TaskSnapshot taskSnapshot) {
-                                    if (progressAlertDialog == null) {
-                                        AlertDialog.Builder builder2 = new AlertDialog.Builder(Signin_activity.this);
-                                        builder2.setTitle("Alert !");
-                                        builder2.setMessage("Uploaded: 0%");
-                                        builder2.setPositiveButton(
-                                                "Ok",
-                                                new DialogInterface.OnClickListener() {
-                                                    public void onClick(DialogInterface dialog, int id) {
-                                                        dialog.cancel();
-                                                    }
-                                                });
+                    if(matcher.matches()) {
 
-                                        progressAlertDialog = builder2.create();
-                                        progressAlertDialog.show();
-                                    }
+                        FirebaseStorage storage = FirebaseStorage.getInstance();
+                        StorageReference uploder = storage.getReference("Image1" + new Random().nextInt(50));
 
-                                    double progress = (100.0 * taskSnapshot.getBytesTransferred()) / taskSnapshot.getTotalByteCount();
-                                    progressAlertDialog.setMessage("Uploaded: " + (int) progress + "%");
-                                }
-                            })
-                            .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
-                                @Override
-                                public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-
-                                    uploder.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
-                                        @Override
-                                        public void onSuccess(Uri uri) {
-
-                                            firebaseAuth.createUserWithEmailAndPassword(Email, Pass)
-                                                    .addOnSuccessListener(new OnSuccessListener<AuthResult>() {
-                                                        @Override
-                                                        public void onSuccess(AuthResult authResult) {
-                                                            firebaseFirestore.collection("users")
-                                                                    .document(FirebaseAuth.getInstance().getUid())
-                                                                    .set(new model(Username, Email, Address, Pass, Confirmpass,uri.toString()));
-                                                            Toast.makeText(Signin_activity.this, "Registration successfull!", Toast.LENGTH_LONG).show();
-                                                            Intent intent = new Intent(Signin_activity.this, Rough.class);
-                                                            startActivity(intent);
-                                                            finish();
-
-                                                        }
-                                                    }).addOnFailureListener(new OnFailureListener() {
-                                                        @Override
-                                                        public void onFailure(@NonNull Exception e) {
-                                                            Toast.makeText(Signin_activity.this, "Registration failed!", Toast.LENGTH_LONG).show();
-
+                        uploder.putFile(imageUri)
+                                .addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
+                                    @Override
+                                    public void onProgress(UploadTask.TaskSnapshot taskSnapshot) {
+                                        if (progressAlertDialog == null) {
+                                            AlertDialog.Builder builder2 = new AlertDialog.Builder(Signin_activity.this);
+                                            builder2.setTitle("Alert !");
+                                            builder2.setMessage("Uploaded: 0%");
+                                            builder2.setPositiveButton(
+                                                    "Ok",
+                                                    new DialogInterface.OnClickListener() {
+                                                        public void onClick(DialogInterface dialog, int id) {
+                                                            dialog.cancel();
                                                         }
                                                     });
+
+                                            progressAlertDialog = builder2.create();
+                                            progressAlertDialog.show();
                                         }
-                                    });
 
-                                }
-                            });
+                                        double progress = (100.0 * taskSnapshot.getBytesTransferred()) / taskSnapshot.getTotalByteCount();
+                                        progressAlertDialog.setMessage("Uploaded: " + (int) progress + "%");
+                                    }
+                                })
+                                .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+                                    @Override
+                                    public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
 
-                    //old code
+                                        uploder.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+                                            @Override
+                                            public void onSuccess(Uri uri) {
+
+                                                firebaseAuth.createUserWithEmailAndPassword(Email, Pass)
+                                                        .addOnSuccessListener(new OnSuccessListener<AuthResult>() {
+                                                            @Override
+                                                            public void onSuccess(AuthResult authResult) {
+                                                                firebaseFirestore.collection("users")
+                                                                        .document(FirebaseAuth.getInstance().getUid())
+                                                                        .set(new model(Username, Email, Address, Pass, Confirmpass, uri.toString()));
+                                                                Toast.makeText(Signin_activity.this, "Registration successfull!", Toast.LENGTH_LONG).show();
+                                                                Intent intent = new Intent(Signin_activity.this, Rough.class);
+                                                                startActivity(intent);
+                                                                finish();
+
+                                                            }
+                                                        }).addOnFailureListener(new OnFailureListener() {
+                                                            @Override
+                                                            public void onFailure(@NonNull Exception e) {
+                                                                Toast.makeText(Signin_activity.this, "Registration failed!", Toast.LENGTH_LONG).show();
+
+                                                            }
+                                                        });
+                                            }
+                                        });
+
+                                    }
+                                });
+
+                        //old code
+                    }else{
+                        email.setError("Enter valid email");
+                        email.requestFocus();
+                    }
 
                 }
             }

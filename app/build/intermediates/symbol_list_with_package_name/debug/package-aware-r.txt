@@ -2786,6 +2786,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable education
+drawable electrician_img
 drawable empty_image
 drawable empty_profile_img
 drawable field_bg
@@ -2919,6 +2920,7 @@ id META
 id Mnumber
 id NO_DEBUG
 id PAYMENT
+id PAYMENTad
 id Register
 id SHIFT
 id SHOW_ALL
@@ -3126,6 +3128,7 @@ id editTextPin
 id edit_query
 id education
 id elastic
+id electrician
 id email
 id embed
 id end
@@ -3673,6 +3676,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout doctor_single_profile
 layout drop_down_item
+layout electrician_singlerow
 layout item_container_recivemsg
 layout item_container_sentmsg
 layout m3_alert_dialog
